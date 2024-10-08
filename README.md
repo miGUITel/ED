@@ -6,6 +6,8 @@
 
 [react](./01/ED0103_react.md)
 
+[Django](./01/ED0103_django.md)
+
 [flask](./01/ED0103_flask.md)
 
 [lisp](./01/ED01_lisp.md)
