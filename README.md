@@ -4,6 +4,10 @@
 
 [Preprocesado y enlazado: manejo de librerías](./01/ED0103_enlazadoVSprepro.md)
 
+[react](./01/ED0103_react.md)
+
+[flask](./01/ED0103_flask.md)
+
 [lisp](./01/ED01_lisp.md)
 
 ### UT04 Pruebas
