@@ -62,3 +62,10 @@ Al acceder a `http://localhost:8000/`, verás la respuesta "¡Hola, mundo!".
 Django es ideal para construir aplicaciones web complejas como sistemas de gestión de contenidos, plataformas de comercio electrónico, redes sociales, y mucho más. Su robustez, combinada con un amplio ecosistema de bibliotecas y herramientas, lo hace especialmente popular para desarrollos de backend de larga duración y en proyectos que requieren alta seguridad y escalabilidad.
 
 Django puede ser una gran herramienta para aprender sobre el desarrollo web completo, ya que abarca tanto la creación de interfaces y lógica de negocio como la interacción con bases de datos y la gestión de usuarios. Además, su enfoque en la seguridad y las prácticas recomendadas de desarrollo es un excelente marco para que comprendan la importancia de construir aplicaciones de manera estructurada y profesional.
+
+### Django en el frontend
+Python con Django es principalmente un stack utilizado para el desarrollo del backend de aplicaciones web. Django es un framework de alto nivel que facilita la creación de aplicaciones web robustas y seguras del lado del servidor, manejando lógica de negocio, interacciones con la base de datos y enrutamiento de URLs.
+
+Aunque Django incluye un sistema de plantillas que permite generar HTML dinámicamente, y por lo tanto puede manejar aspectos básicos del frontend, no está diseñado para crear interfaces de usuario interactivas y ricas como lo permiten los frameworks de frontend modernos. Para desarrollar un frontend más dinámico y responsivo, es común utilizar frameworks o bibliotecas de JavaScript como React, Angular o Vue.js.
+
+Por lo tanto, si el objetivo es construir una aplicación con una experiencia de usuario sofisticada en el frontend, sería recomendable combinar Django en el backend con alguna tecnología especializada en frontend.
