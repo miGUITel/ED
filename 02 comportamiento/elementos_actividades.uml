@@ -1,0 +1,21 @@
+@startuml
+start
+
+:Actividad;
+
+if (Decisión) then (Opción 1)
+  :Actividad;
+else (Opción 2)
+  :Actividad;
+endif
+
+fork
+  :Actividad Paralela 1;
+fork again
+  :Actividad Paralela 2;
+end fork
+
+:Objeto;
+
+stop
+@enduml

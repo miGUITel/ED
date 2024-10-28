@@ -1,0 +1,24 @@
+@startuml
+start
+
+:Seleccionar productos;
+:Agregar al carrito;
+:Realizar pago;
+
+if (¿Pago aprobado?) then (sí)
+  :Verificar inventario;
+
+fork
+  :Actualizar pedido;
+fork again
+  :Confirmación de compra;
+end fork
+
+:Envío de recibo;
+
+else (no)
+  :Notificar al cliente;
+endif
+
+stop
+@enduml
