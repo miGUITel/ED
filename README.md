@@ -12,6 +12,10 @@
 
 [lisp](./01/ED01_lisp.md)
 
+### UT02 Análisis mediante diagramas
+
+[Apuntes](./02%20comportamiento/ED0200.md)
+
 ### UT04 Pruebas
 
 [Debuggin](./04/ED04_debuging.md)
