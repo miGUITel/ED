@@ -14,7 +14,7 @@
 
 ### UT02 Análisis mediante diagramas
 
-[Apuntes](./02_20comportamiento/ED0200.md)
+[Apuntes](./02_comportamiento/ED0200.md)
 
 ### UT04 Pruebas
 
