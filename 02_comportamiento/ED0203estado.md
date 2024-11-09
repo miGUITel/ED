@@ -16,14 +16,34 @@ Los diagramas de estado son valiosos en el diseño de sistemas orientados a obje
 
 Los diagramas de estado también facilitan la comunicación entre los miembros del equipo, al ofrecer un lenguaje visual común que representa el comportamiento del sistema de forma intuitiva.
 
-## Elementos de los Diagramas de Estado
-1. **Estados**: Representan las distintas etapas o condiciones de un objeto en un momento determinado. Cada estado puede tener subestados y acciones asociadas, que describen las actividades que el objeto realiza mientras se encuentra en dicho estado.
-2. **Transiciones**: Son las conexiones entre estados, indicando cómo un objeto pasa de un estado a otro en respuesta a eventos. Las transiciones pueden estar condicionadas, es decir, ocurren solo si se cumplen ciertos requisitos específicos.
-   - **Eventos**: Son los desencadenantes que provocan una transición de un estado a otro. Los eventos pueden incluir interacciones del usuario, respuestas a otros objetos o eventos temporales, como el paso de un tiempo determinado.
-   - **Acciones**: Son operaciones que se ejecutan durante la transición de un estado a otro o al entrar o salir de un estado. Estas acciones definen el comportamiento del objeto en cada estado y su respuesta ante eventos específicos.
-3. **Estados Inicial y Final**: Representan el inicio y el final del ciclo de vida del objeto dentro del sistema. El estado inicial indica el punto de partida del objeto, mientras que el estado final simboliza la conclusión de su actividad en el sistema.
-
 ![alt text](image-15.png)
+
+## Elementos de los Diagramas de Estado
+1. **Estados**: Representan las distintas etapas o condiciones de un objeto en un momento determinado. Cada estado puede tener subestados y acciones asociadas, que describen las actividades que el objeto realiza mientras se encuentra en dicho estado. *Se representa con el rectángulo*
+2. **Transiciones**: Son las conexiones entre estados, indicando cómo un objeto pasa de un estado a otro en respuesta a eventos. Las transiciones pueden estar condicionadas, es decir, ocurren solo si se cumplen ciertos requisitos específicos. *Se representa con la flecha*
+   - **Eventos**: Son los desencadenantes que provocan una transición de un estado a otro. Los eventos pueden incluir interacciones del usuario, respuestas a otros objetos o eventos temporales, como el paso de un tiempo determinado. *En la etiqueta que acompaña a la flecha, en primer lugar*
+   - **Acciones**: Son operaciones que se ejecutan durante la transición de un estado a otro o al entrar o salir de un estado. Estas acciones definen el comportamiento del objeto en cada estado y su respuesta ante eventos específicos. *En la etiqueta que acompaña a la flecha, en segundo lugar*
+3. **Estados Inicial y Final**: Representan el inicio y el final del ciclo de vida del objeto dentro del sistema. El estado inicial indica el punto de partida del objeto, mientras que el estado final simboliza la conclusión de su actividad en el sistema. *Se representa con los discos negros inicial y final*
+
+## Ejemplo de uso de etiquetas para Evento y Acción
+
+          ┌───────────────────────┐
+          │ EsperandoCredenciales │
+          └──────────┬────────────┘
+                     │
+      **ingresarCredenciales** / *verificarCredenciales*
+                     │
+                     │
+           ┌─────────▼────────┐
+           │    Verificando   │
+           └─────────┬────────┘
+                     │
+        **credencialesCorrectas** / *mostrarBienvenida*
+                     │
+                     │
+       ┌─────────────▼─────────────┐
+       │      AccesoPermitido      │
+       └───────────────────────────┘
 
 ## Ejemplos de Diagramas de Estado
 
