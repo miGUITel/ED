@@ -1,0 +1,24 @@
+@startuml
+
+start
+
+:Comprobar edad;
+if (Edad > 14?) then (Sí)
+    :Comprobar nota media;
+    if (Nota media > 7?) then (Sí)
+        :Elegir modalidad;
+        if (Modalidad Ciencias o Letras?) then (Ciencias)
+            :Matrícula en Ciencias;
+        else (Letras)
+            :Matrícula en Letras;
+        endif
+        :Matrícula completada;
+    else (No)
+        :Matrícula denegada nota;
+    endif
+else (No)
+    :Matrícula denegada edad;
+endif
+
+stop
+@enduml

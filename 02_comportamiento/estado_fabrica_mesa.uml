@@ -1,0 +1,14 @@
+@startuml
+[*] --> Preparacion_de_la_madera
+
+Preparacion_de_la_madera --> Corte_de_piezas : Madera preparada
+Corte_de_piezas --> Montaje : Piezas cortadas
+Montaje --> Lijado : Mesa montada
+Lijado --> Pintura : Mesa lijada
+Pintura --> Secado : Mesa pintada
+Secado --> Inspeccion : Mesa seca
+Inspeccion --> Embalado : Mesa aprobada
+Inspeccion --> Reparacion : Mesa con defectos
+Reparacion --> Lijado : Mesa reparada
+Embalado --> [*] : Mesa embalada
+@enduml
