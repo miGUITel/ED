@@ -1,0 +1,13 @@
+```plantuml
+@startuml
+interface Notificable {
+  + +enviarNotificacion(): void
+}
+
+class Usuario {
+  - -nombre: String
+  + +enviarNotificacion(): void
+}
+
+Usuario ..|> Notificable
+@enduml

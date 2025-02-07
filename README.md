@@ -16,8 +16,20 @@
 
 [Apuntes](./02_comportamiento/ED0200.md)
 
-### UT04 Pruebas
+### UT05 UML
 
-[Debuggin](./04/ED04_debuging.md)
+[5.b Se han utilizado herramientas para la elaboración de diagramas de clases.](./05UML/5b_herramientas.md)
 
+[5.c Se ha interpretado el significado de diagramas de clases.](./05UML/5c_significado.md)
+
+[5.d Se han trazado diagramas de clases a partir de las especificaciones de las mismas.](./05UML/5d_especificaciones.md)
+
+[5.e Se ha generado código a partir de un diagrama de clases.](./05UML/5e_codigo.md)
+
+[5.f Se ha generado un diagrama de clases mediante ingeniería inversa.](./05UML/5f_ingenieria_inversa.md)
+
+
+### UT07 Realización de Pruebas
+
+[Debuging](./07PRU/ED04_debuging.md)
 
