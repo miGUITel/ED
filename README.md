@@ -37,3 +37,20 @@
 
 [Debuging](./07PRU/ED04_debuging.md)
 
+### UT08 Documentación, control de versiones
+
+#### git
+
+[Instalar git](./08Git/instalaGit.md)
+
+[Configuración inicial de git](./08Git/LM00_git_configInicial.md)
+
+[Crear repositorio](./08Git/1_crear_compartido.md)
+
+[Compartir repositorio](./08Git/1_alumno.md)
+
+[Solucionar conflicto tras un pull](./08Git/LM00_git_conflicto_pull.md)
+
+[Fork](./08Git/LM08fork.md)
+
+[Copia a partir de plantilla](./08Git/LM08plantilla.md)
