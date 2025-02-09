@@ -26,9 +26,11 @@
 
 [5.d Se han trazado diagramas de clases a partir de las especificaciones de las mismas.](./05UML/5d_especificaciones.md)
 
-[5.e Se ha generado código a partir de un diagrama de clases.](./05UML/5e_codigo.md)
+[**5.e Se ha escrito código a partir de un diagrama de clases.](./05UML/5e_codigo.md)
 
-[5.f Se ha generado un diagrama de clases mediante ingeniería inversa.](./05UML/5f_ingenieria_inversa.md)
+5.f Se ha generado un diagrama de clases mediante ingeniería inversa.
+
+<!-- [5.f Se ha generado un diagrama de clases mediante ingeniería inversa.](./05UML/5f_ingenieria_inversa.md) -->
 
 
 ### UT07 Realización de Pruebas
