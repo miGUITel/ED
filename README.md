@@ -45,7 +45,9 @@
 
 [Configuración inicial de git](./08Git/LM00_git_configInicial.md)
 
-[Crear repositorio](./08Git/1_crear_compartido.md)
+[Crear repo VSC](./08Git/LM08CrearRepoVSC.md)
+
+[Crear repositorio comandos](./08Git/1_crear_compartido.md)
 
 [Compartir repositorio](./08Git/1_alumno.md)
 
