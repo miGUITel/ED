@@ -1,7 +1,5 @@
 #### *5.c	Se ha interpretado el significado de diagramas de clases.*
 
-#### *5.d	Se han trazado diagramas de clases a partir de las especificaciones de las mismas.*
-
 A lo largo de la UT interpretaremos diagramas de clase y los traduciremos en código java.
 
 
