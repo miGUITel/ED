@@ -1,4 +1,4 @@
-#### *5.d	Se han trazado diagramas de clases a partir de las especificaciones de las mismas.*
+5.d Se han trazado diagramas de clases a partir de las especificaciones de las mismas.
 
 ### Las especificaciones de las clases pueden ser de mayor o menor nivel
 

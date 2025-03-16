@@ -1,0 +1,9 @@
+@startuml Persona
+class Persona {
+    - -String nombre
+    - -int edad
+    + +Persona(String nombre, int edad)
+    + +String saludar(String saludo)
+    - -String mostrarInformacionSecreta()
+}
+@enduml

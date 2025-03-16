@@ -1,4 +1,4 @@
-#### 5.b Se han utilizado herramientas para la elaboración de diagramas de clases.
+5.b Se han utilizado herramientas para la elaboración de diagramas de clases.
 
 A lo largo de la UT utilizaremos estas herramientas:
 

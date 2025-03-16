@@ -1,0 +1,13 @@
+@startuml
+abstract class Figura {
+  - -color: String
+  + ""dibujar()"": void
+}
+
+class Circulo {
+  - -radio: double
+  + +dibujar(): void
+}
+
+Figura <|-- Circulo
+@enduml
