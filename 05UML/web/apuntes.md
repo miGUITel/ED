@@ -1,7 +1,5 @@
 ## UML
 
-
-
 ### Diagramas de clases
 
 En UML (Unified Modeling Language), las clases se representan visualmente mediante diagramas de clases. A continuación, se describen los elementos clave utilizados para representar clases en UML:
