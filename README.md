@@ -37,6 +37,10 @@
 [5.f Se ha generado un diagrama de clases mediante ingeniería inversa.](./05UML/web/5f_ingenieria_inversa.md)
 
 
+### UT06 Diseño de Pruebas
+
+[Ejemplos de grafos de flujo](./06DPRU/web/ejemplosGrafos.md)
+
 ### UT07 Realización de Pruebas
 
 [Debuging](./07PRU/web/ED04_debuging.md)

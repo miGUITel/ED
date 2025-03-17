@@ -1,0 +1,79 @@
+2
+```plantuml
+@startuml
+
+
+if (3) then (Sí)
+    :4;
+endif
+:6;
+
+@enduml
+```
+3
+@startuml
+start
+:2;
+if (3) then (Sí)
+    :4;
+else
+    if (5) then (Sí)
+        :6;
+    else
+        :8;
+    endif
+endif
+stop
+@enduml
+
+@startuml
+:2;
+if (3) then (Sí)
+    if (4) then (Sí)
+        :5;
+else
+    if (3) then (Sí)
+        :6;
+    else
+        :8;
+    endif
+    endif
+endif
+:10;
+@enduml
+4
+@startuml
+
+:2;
+while (3) is (Sí)
+    :4;
+endwhile (No)
+:7;
+
+@enduml
+
+5
+@startuml
+:2;
+repeat
+    :4;
+    :5;
+repeat while (6?) is (Sí)
+:7;
+@enduml
+
+6
+@startuml
+:2;
+switch (3)
+case ()
+    :5;
+case ()
+    :8;
+case ()
+    :11;
+case ()
+    :13;
+endswitch
+:14;
+@enduml
