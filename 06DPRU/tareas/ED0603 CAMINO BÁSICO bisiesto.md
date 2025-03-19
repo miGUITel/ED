@@ -1,11 +1,11 @@
 ## DISEÑO DE PRUEBAS UTILIZANDO EL ENFOQUE DEL CAMINO BÁSICO
 
 #### Rúbrica y guía de calificación:
-- [ ] Se explica el código. *Nota total 3*
-- [ ] Grafo de flujo correcto.
-- [ ] Complejidad ciclomática correcta. *Nota total 6*
-- [ ] Determina la rutas correpondientes.
-- [ ] Crea la tabla formalmente correcta con los datos correctos resultantes del análisis anterior. *Nota total 9*
+- [x] Se explica el código. *Nota total 3*
+- [x] Grafo de flujo correcto.
+- [x] Complejidad ciclomática correcta. *Nota total 6*
+- [x] Determina la rutas correpondientes.
+- [x] Crea la tabla formalmente correcta con los datos correctos resultantes del análisis anterior. *Nota total 9*
 
 #### Explica el funcionamiento del siguiente código
 
