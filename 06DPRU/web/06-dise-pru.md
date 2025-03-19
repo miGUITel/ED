@@ -789,6 +789,8 @@ valores límite.
 
 ### I Dibujar grafos de flujo
 
+[Ejemplos de grafos de flujo](./ejemplosGrafos.md)
+
 El grafo de flujo se utiliza para representar flujo de control lógico de
 un programa. Para ello se utilizan los tres elementos siguientes:
 
@@ -816,8 +818,7 @@ La siguiente figura muestra como representar las sentencias y
 estructuras de control que componen habitualmente nuestros programas.
 
 ![Gráfico, Esquemático, Gráfico de burbujas Descripción generada
-automáticamente](./media/media/image17.png){width="7.524409448818898in"
-height="4.100458223972003in"}
+automáticamente](./media/media/image17.png)
 
 **Ejemplos G1 y G2**
 

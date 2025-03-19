@@ -30,7 +30,7 @@
 
 [5.d Se han trazado diagramas de clases a partir de las especificaciones de las mismas.](./05UML/web/5d_especificaciones.md)
 
-[**5.e Se ha escrito código a partir de un diagrama de clases.](./05UML/web/5e_codigo.md)
+[5.e Se ha escrito código a partir de un diagrama de clases.](./05UML/web/5e_codigo.md)
 
 <!-- 5.f Se ha generado un diagrama de clases mediante ingeniería inversa. -->
 
@@ -38,6 +38,8 @@
 
 
 ### UT06 Diseño de Pruebas
+
+[Apuntes](./06DPRU/web/06-dise-pru.md)
 
 [Ejemplos de grafos de flujo](./06DPRU/web/ejemplosGrafos.md)
 
