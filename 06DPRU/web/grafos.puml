@@ -77,3 +77,30 @@ case ()
 endswitch
 :14;
 @enduml
+
+ejemploapuntes
+@startuml
+start
+:I;
+:1;
+:1;
+:1;
+if (2) then (Sí)
+    if (3) then (Sí)
+        :4;
+        -> F;
+    else (No)
+        -> 5;
+    endif
+else (No)
+    -> 5;
+endif
+
+if (5) then (Sí)
+    :6;
+endif
+
+-> F;
+stop
+@enduml
+
