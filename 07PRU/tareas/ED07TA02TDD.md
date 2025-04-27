@@ -1,9 +1,5 @@
 ## ENTORNOS DE DESARROLLO ED07TA02
 
-
-
-
-
 ### Qué es TDD
 
 **TDD (Test-Driven Development -- Desarrollo dirigido por pruebas)** es una metodología de diseño de software que se basa en pruebas para guiar el proceso. Algunas ventajas de usar TDD son que el software resultante es de alta calidad y tiene menos errores. Además, la arquitectura del sistema y el código producido son fáciles de comprender y están bien estructurados.
