@@ -4,7 +4,9 @@
    1. Seguridad en la gestión de cambios
 2. Introducir el framework JUnit
    1. Recurso: vídeo "Cómo montar un proyecto"
-   2. Recurso ***pendiente***: proyecto montado para ejemplificar el funcionamiento en directo
+   2. Recurso : proyecto montado para ejemplificar el funcionamiento en directo
+      1. Los métodos pueden estar modificados para que no pasen los test
+      2. //comentar las líneas erróneas/correctas
 3. Tarea opcional: calculadora
 
 ### Clase 2
