@@ -1,0 +1,32 @@
+@startuml
+
+package inventariojuego {
+
+    class Main {
+        +main(String[] args) : void
+    }
+
+    class JuegoRol {
+        +recogerPociones(inventario: ArrayList<Item>, cantidad: int, rand: Random) : void
+        +usarFlechas(inventario: ArrayList<Item>, cantidad: int) : void
+        +usarObjeto(inventario: ArrayList<Item>, nombre: String, cantidad: int) : void
+        +recogerObjeto(inventario: ArrayList<Item>, nombre: String, cantidad: int) : void
+        +getCantidad(inventario: ArrayList<Item>, nombre: String) : int
+        +mostrarInventario(inventario: ArrayList<Item>) : void
+    }
+
+    class Item {
+        -nombre : String
+        -cantidad : int
+        +Item(nombre: String, cantidad: int)
+        +getNombre() : String
+        +getCantidad() : int
+        +aumentarCantidad(cantidad: int) : void
+        +disminuirCantidad(cantidad: int) : void
+    }
+
+    Main --> JuegoRol : usa
+    JuegoRol --> Item : opera sobre
+}
+
+@enduml

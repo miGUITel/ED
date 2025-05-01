@@ -47,6 +47,8 @@
 
 [Debuging](./07PRU/web/ED04_debuging.md)
 
+[Ejemplos Debuging](./07PRU/web/ED07E01_ejemplosDebuging.md)
+
 ### UT08 Documentación, control de versiones
 
 #### git
