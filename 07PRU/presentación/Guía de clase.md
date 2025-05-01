@@ -5,8 +5,9 @@
 2. Introducir el framework JUnit
    1. Recurso: vídeo "Cómo montar un proyecto"
    2. Recurso : proyecto montado para ejemplificar el funcionamiento en directo
-      1. Los métodos pueden estar modificados para que no pasen los test
-      2. //comentar las líneas erróneas/correctas
+      1. métodos: par-impar, mayor entre dos números, saludar al usuario
+      2. Los métodos pueden estar modificados para que no pasen los test
+      3. //comentar las líneas erróneas/correctas
 3. Tarea opcional: calculadora
 
 ### Clase 2
@@ -36,4 +37,4 @@
    2. Depurar búsqueda Binaria
 3. Tarea 04 Juego de ROL
    1. Explicar
-   2. Trabajar
+   2. Trabajan tarea 04

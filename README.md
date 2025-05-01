@@ -45,9 +45,11 @@
 
 ### UT07 Realización de Pruebas
 
-[Debuging](./07PRU/web/ED04_debuging.md)
+[Guía Debuging](./07PRU/web/ED04_debuging.md)
 
-[Ejemplos Debuging](./07PRU/web/ED07E01_ejemplosDebuging.md)
+[Ejemplo Debuging Número mayor](./07PRU/web/ED07E01_ejemplosDebuging.md)
+
+[Ejemplo Debuging Picos](./07PRU/web/ED07E02_ejemploPicos.md)
 
 ### UT08 Documentación, control de versiones
 
