@@ -54,7 +54,9 @@ Realiza los siguientes pasos **siguiendo el orden propuesto**, utiliza el lengua
 
 > Inserta aquí un Recorte del código de las pruebas cuando tienes escrito hasta el séptimo test...
 
-4. **VERSIÓN V3** ***Refactoriza*** el código de la segunda versión de la clase para que realice la tarea de otra forma sin cambiar la funcionalidad. ¡Sé creativo!
+> Inserta aquí un Reocorte del resultado de la ejecución de las pruebas... 
+
+1. **VERSIÓN V3** ***Refactoriza*** el código de la segunda versión de la clase para que realice la tarea de otra forma sin cambiar la funcionalidad. ¡Sé creativo!
 
 > Inserta un Recorte del código
 
@@ -72,22 +74,25 @@ Debes entregar **esta** memoria en PDF en la que describas los pasos que has seg
 
 Check list:
 
--   Casos de prueba 1
+- [x]   V1 libre (código y salida)
 
--   V1 libre
+- [x]   Tabla de casos de prueba
 
--   V2 TDD
+- [x]   V2 TDD
 
-    -   Tests 1
+    - [x]   Código cuando vas por el séptimo test
 
-    -   Grafo flujo
+    - [x]   Tests cuando vas por el séptimo test
 
-    -   Casos de prueba 2
+    - [x]   Ejecución de las pruebas cuando vas por el séptimo test
 
-    -   Tests 2
+    - [x]   Grafo flujo
 
--   V3 refactoriza
+- [x]   V3 refactoriza
 
+    - [x]   Código
+  
+    - [x]	  Resultado de las pruebas
 
 
 > Control de cambios
