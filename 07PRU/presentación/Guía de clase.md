@@ -21,12 +21,13 @@
 1. Enlazar con clase 2
 2. Resolver dudas TDD
 3. Introducción al depurador
-   1. recurso: Web
+   1. recurso: Web (en el directorio web también hay ejemplos)
+      1. Cargar los ejemplos en InteliJ
    2. Diferencia entre resume, step over, step into
-      1. Recurso: Main.java (InteliJ)
+      1. Recurso: Main.java (Método A, B)
    3. Pila de llamadas
       1. Recurso: Main.java
-   4. Ejemplos completos (en el repositorio)
+   4. Ejemplos completos (en el directorio de la web del repositorio)
       1. Número mayor de un array
       2. Detector de Picos
 
