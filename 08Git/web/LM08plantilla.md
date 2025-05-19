@@ -17,6 +17,7 @@ Cuando creas un nuevo repositorio desde una plantilla:
 ---
 
 ## 🎯 **Diferencias entre Fork y Plantilla**
+
 | Característica | **Fork** 🪝 | **Plantilla** 🏗️ |
 |--------------|------------|----------------|
 | **Relación con el original** | Mantiene vínculo con el original. | Es completamente independiente. |
