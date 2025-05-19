@@ -53,18 +53,8 @@
 
 ### UT08 Documentación, control de versiones
 
-#### git
+[git](./git.md)
 
-[Instalar git](./08Git/web/instalaGit.md)
+[refactorización apuntes](./08Git/presentación/md_sobre_refactorización/250510_Refactor.md)
 
-[Configuración inicial de git](./08Git/web/LM00_git_configInicial.md)
-
-[Crear repositorio](./08Git/web/1_crear_compartido.md)
-
-[Compartir repositorio](./08Git/web/1_alumno.md)
-
-[Solucionar conflicto tras un pull](./08Git/web/LM00_git_conflicto_pull.md)
-
-[Fork](./08Git/web/LM08fork.md)
-
-[Copia a partir de plantilla](./08Git/web/LM08plantilla.md)
+[refactoraización: cinco patrones básicos](./08Git/web/patronesBasicos.md)
