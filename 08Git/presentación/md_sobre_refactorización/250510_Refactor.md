@@ -1,8 +1,6 @@
-ENTORNOS DE DESARROLLO
+## **UT 08: REFACTORIZACIÓN**
 
-**UT OPTIMIZACIÓN DE SOFTWARE: REFACTORIZACIÓN**
-
-# Contenido {#contenido .unnumbered}
+#### Contenido
 
 [Contenido [2](#_Toc132355401)]
 
