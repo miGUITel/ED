@@ -5,12 +5,27 @@ public class Utilidades {
         //return n % 2 == 0;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public static int mayor(int a, int b) {
-        return 0;
-        //return (a > b) ? a : b;
+        //return 0;
+        return (a > b) ? a : b;
     }
 
     public static String saludar(String nombre) {
-        return "ola, " + nombre;
+
+        return "Hola, " + nombre;
     }
 }

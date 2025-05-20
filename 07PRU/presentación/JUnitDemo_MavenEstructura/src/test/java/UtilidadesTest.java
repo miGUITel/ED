@@ -4,8 +4,14 @@ import static org.junit.jupiter.api.Assertions.*;
 public class UtilidadesTest {
 
     @Test
-    public void testEsPar() {
+    public void testEsParParametroPar() {
         assertTrue(Utilidades.esPar(4));
+        //assertFalse(Utilidades.esPar(5));
+    }
+
+    @Test
+    public void testEsParParametroImpar() {
+        //assertTrue(Utilidades.esPar(4));
         assertFalse(Utilidades.esPar(5));
     }
 
@@ -17,6 +23,7 @@ public class UtilidadesTest {
 
     @Test
     public void testSaludar() {
-        assertEquals("Hola, Ana", Utilidades.saludar("Ana"));
+        assertEquals("Hola, Ana",
+                Utilidades.saludar("Ana"));
     }
 }
