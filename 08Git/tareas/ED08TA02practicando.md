@@ -35,14 +35,13 @@ Esta actividad te permitirá **detectar malas prácticas comunes** (nombres crí
 public class CalculadoraFactura {
 
     public static void calcular(double pb, double d) {
-        double i = 21.0; // porcentaje de impuesto fijo
-
+        
         double p = pb - (pb * d / 100);
-        double t = p + (p * i / 100);
+        double t = p + (p * 21 / 100);
 
         System.out.println("El precio base es: " + pb);
         System.out.println("Descuento aplicado: " + d + "%");
-        System.out.println("Impuesto aplicado: " + i + "%");
+        System.out.println("Impuesto aplicado: " + 21 + "%");
         System.out.println("El total a pagar es: " + t);
     }
 }
