@@ -43,9 +43,9 @@ Este sistema contiene condiciones **no evidentes** que requieren inspección con
 Contesta a estas preguntas **usando el depurador**:
 
 
-| Nº | Pregunta                                                                                             | Respuesta del alumno |
-|----|------------------------------------------------------------------------------------------------------|----------------------|
-| 1  | ¿Cuántas pociones válidas ha recogido el jugador en la primera acción?                              |                      |
+| Nº | Pregunta                                                                                             | Respuesta del alumno | Recorte del punto de ruptura, momento de ejecución y valor de la variable solicitada
+|----|--------------------------------------------------------|--------------------------------------------------------------------|
+| 1  | ¿Cuántas pociones válidas ha recogido el jugador en la primera acción?                               |                      |
 | 2  | ¿Cuántas pociones válidas ha recogido el jugador cuando solo ha cogido tres de las cuatro?           |                      |
 | 3  | ¿Se añadió un antídoto tras recoger las pociones? ¿Por qué?                                          |                      |
 | 4  | ¿Cuántas monedas gana el jugador? ¿Qué objeto se añade automáticamente tras ello?                    |                      |
@@ -72,7 +72,7 @@ Responde brevemente:
 | 0    | No entregado, o entregado sin utilizar el depurador, o sin capturas que justifiquen las respuestas. | [ ] |
 | 3    | Entregado, pero con errores importantes o respuestas poco justificadas.                         | [ ] |
 | 6    | La mayoría de las respuestas son correctas y justificadas con capturas.                         | [ ] |
-| 9    | Todas las respuestas son correctas y bien justificadas.                                         | [ ] |
+| 9    | Todas las respuestas son correctas y bien justificadas. **Responde en la tabla. **              | [ ] |
 | 10   | Además de lo anterior, se aportan observaciones personales, ideas adicionales o análisis extra. | [ ] |
 
 
@@ -80,3 +80,6 @@ Responde brevemente:
 Modifica este archivo `.md` completando la tabla de respuestas y la sección de reflexión. Asegúrate de incluir **capturas de pantalla que justifiquen cada una de tus respuestas**.
 
 Cuando termines, genera un archivo **PDF** a partir del documento modificado y entrégalo en aula virtual.
+
+V1 2024-2025
+V2 2025-2026
