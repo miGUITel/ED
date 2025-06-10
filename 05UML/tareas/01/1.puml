@@ -1,0 +1,346 @@
+@startuml
+class Coche {
+  - -marca: String = "Toyota"
+  - -modelo: String
+  - -anio: int = 2020
+  # #kilometraje: double = 0.0
+  - -ruedas: Rueda[4]
+  + +conducir(km: double): void
+}
+
+class Rueda {
+  - -diametro: double
+  - -tipo: String
+  + +inflar(presion: double): void
+}
+
+Coche o-- Rueda : "1 ... *"
+@enduml
+
+@startuml
+class Persona {
+  - -nombre: String
+  - -edad: int
+  - -brazos: Brazo[2]
+  + +moverBrazo(lado: String): void
+}
+
+class Brazo {
+  - -longitud: double
+  - -fuerza: int
+  + +levantarPeso(kg: double): void
+}
+
+Persona *-- Brazo : "1 ... 2"
+@enduml
+
+
+@startuml
+class Fichero {
+  - -nombre: String
+  - -tamaño: int
+  + +abrir(): void
+  + +cerrar(): void
+}
+
+class Texto {
+  - -codificacion: String
+  + +contarPalabras(): int
+}
+
+class Imagen {
+  - -resolucion: String
+  + +cambiarTamaño(nuevaResolucion: String): void
+}
+
+class Audio {
+  - -duracion: double
+  + +reproducir(): void
+}
+
+Fichero <|-- Texto
+Fichero <|-- Imagen
+Fichero <|-- Audio
+@enduml
+
+@startuml
+class Vehiculo {
+  - -marca: String
+  + +mover(): void
+}
+
+class Terrestre {
+  - -numRuedas: int
+  + +conducir(): void
+}
+
+class Acuatico {
+  - -tipoCasco: String
+  + +navegar(): void
+}
+
+class Coche {
+  - -tipoCombustible: String
+  + +encenderMotor(): void
+}
+
+class Moto {
+  - -cilindrada: int
+  + +hacerCaballito(): void
+}
+
+class Barco {
+  - -eslora: double
+  + +lanzarAncla(): void
+}
+
+class Submarino {
+  - -profundidadMaxima: int
+  + +sumergirse(): void
+}
+
+Vehiculo <|-- Terrestre
+Vehiculo <|-- Acuatico
+Terrestre <|-- Coche
+Terrestre <|-- Moto
+Acuatico <|-- Barco
+Acuatico <|-- Submarino
+@enduml
+
+@startuml
+class Recurso {
+  - -nombre: String
+  + +usar(): void
+}
+
+class Fichero {
+  - -tamaño: int
+  + +abrir(): void
+}
+
+class Servicio {
+  - -estado: String
+  + +iniciar(): void
+}
+
+class Documento {
+  - -formato: String
+  + +imprimir(): void
+}
+
+class Log {
+  - -nivel: String
+  + +registrarEntrada(): void
+}
+
+class WebService {
+  - -url: String
+  + +enviarPeticion(): void
+}
+
+class BaseDeDatos {
+  - -conexion: String
+  + +consultar(): void
+}
+
+Recurso <|-- Fichero
+Recurso <|-- Servicio
+Fichero <|-- Documento
+Fichero <|-- Log
+Servicio <|-- WebService
+Servicio <|-- BaseDeDatos
+@enduml
+
+@startuml
+class Recurso {
+  - -nombre: String
+  + +usar(): void
+}
+
+class Fichero {
+  - -tamaño: int
+  + +abrir(): void
+}
+
+class Servicio {
+  - -estado: String
+  + +iniciar(): void
+}
+
+class Documento {
+  - -formato: String
+  + +imprimir(): void
+}
+
+class Log {
+  - -nivel: String
+  + +registrarEntrada(): void
+}
+
+class WebService {
+  - -url: String
+  + +enviarPeticion(): void
+}
+
+class BaseDeDatos {
+  - -conexion: String
+  + +consultar(): void
+}
+
+Recurso <|-- Fichero
+Recurso <|-- Servicio
+Fichero <|-- Documento
+Fichero <|-- Log
+Servicio <|-- WebService
+Servicio <|-- BaseDeDatos
+@enduml
+
+@startuml
+interface Autenticable {
+  + +login(usuario: String, contraseña: String): boolean
+  + +logout(): void
+}
+
+class Usuario {
+  - -nombre: String
+  - -email: String
+  + +login(usuario: String, contraseña: String): boolean
+  + +logout(): void
+}
+
+class Administrador {
+  - -nivelAcceso: int
+  + +login(usuario: String, contraseña: String): boolean
+  + +logout(): void
+  + +gestionarUsuarios(): void
+}
+
+Autenticable <|.. Usuario
+Autenticable <|.. Administrador
+@enduml
+
+@startuml
+class Vuelo {
+  - -numeroVuelo: String
+  - -origen: String
+  - -destino: String
+  - -fecha: Date
+  + +reservarAsiento(pasajero: Pasajero): boolean
+}
+
+class Pasajero {
+  - -nombre: String
+  - -dni: String
+  + +comprarBoleto(vuelo: Vuelo): void
+}
+
+class Avion {
+  - -modelo: String
+  - -capacidad: int
+  + +despegar(): void
+  + +aterrizar(): void
+}
+
+class Piloto {
+  - -licencia: String
+  + +volarAvion(avion: Avion): void
+}
+
+Vuelo *-- Avion : "1"
+Vuelo o-- "1..*" Pasajero : "tiene"
+Avion <|-- Piloto : "es operado por"
+@enduml
+@startuml
+class Vuelo {
+  - -numeroVuelo: String
+  - -origen: String
+  - -destino: String
+  - -fecha: Date
+  + +reservarAsiento(pasajero: Pasajero): boolean
+}
+
+class Pasajero {
+  - -nombre: String
+  - -dni: String
+  + +comprarBoleto(vuelo: Vuelo): void
+}
+
+class Avion {
+  - -modelo: String
+  - -capacidad: int
+  + +despegar(): void
+  + +aterrizar(): void
+}
+
+class Piloto {
+  - -nombre: String
+  - -licencia: String
+  + +volarVuelo(vuelo: Vuelo): void
+}
+
+Vuelo *-- Avion : "1"
+Vuelo o-- "1..*" Pasajero : "tiene"
+Vuelo -- Piloto : "es pilotado por 1..2"
+Piloto -- Avion : "pilota"
+@enduml
+
+@startuml
+class Vuelo {
+  - -numeroVuelo: String
+  - -fecha: Date
+  + +reservarAsiento(pasajero: Pasajero): boolean
+}
+
+class Pasajero {
+  - -nombre: String
+  - -dni: String
+  + +comprarBoleto(vuelo: Vuelo): void
+}
+
+class Piloto {
+  - -nombre: String
+  - -licencia: String
+  + +volarVuelo(vuelo: Vuelo): void
+}
+
+class Destino {
+  - -ciudad: String
+  - -pais: String
+  + +obtenerInfo(): String
+}
+
+Vuelo o-- Destino : "tiene escalas en"
+Vuelo o-- Pasajero : "tiene"
+Vuelo --  Piloto : "es pilotado por"
+@enduml
+
+@startuml
+class Hotel {
+  - -nombre: String
+  - -direccion: String
+  + +obtenerDisponibilidad(): boolean
+}
+
+class Habitacion {
+  - -numero: int
+  - -tipo: String
+  + +verPrecio(): double
+}
+
+class Cliente {
+  - -nombre: String
+  - -dni: String
+  + +hacerReserva(hotel: Hotel, habitacion: Habitacion): void
+}
+
+class Reserva {
+  - -fechaInicio: Date
+  - -fechaFin: Date
+  + +confirmarReserva(): void
+}
+
+Hotel "1" *-- "*" Habitacion : "tiene"
+Hotel "1" o-- "*" Reserva : "gestiona"
+Reserva "*" -- "1" Cliente : "pertenece a"
+Reserva "1" -- "*" Habitacion : "incluye"
+@enduml
