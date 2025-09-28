@@ -94,6 +94,7 @@ sudo  apt  install  python3  php  nodejs  gcc  g++  nasm  golang  clisp
 1. Estos comandos son propios de linux y se pueden ejecutra directamente en la terminal.
 
 2. Escribimos las sentencias y luego pulsamos INTRO.
+
 ```bash
 echo "Hola Mundo"
 ```
@@ -102,11 +103,14 @@ echo "Hola Mundo"
 ### Script ejecutable
 
 1. Editamos archivo __hola.sh__ con nano 
+
 ```bash
 nano hola.sh
 # esto abrirá un editor de texto sencillo
 ```
+
 En el archivo, escribimos:
+
 ```bash
 
 #!/usr/bin/env bash
@@ -120,7 +124,8 @@ echo "hola mundo desde BASH"
 
 * Pulsa `Enter` para mantener el nombre del archivo
 
-2. Damos permisos de ejecución
+
+1. Damos permisos de ejecución
 
 ```bash
 chmod  +x  hola1.sh
@@ -150,7 +155,7 @@ python3
 print ("Hola Mundo desde PYTHON")
 ```
 
-3. Para salir del intérprete pulsamos CTRL+D.  
+3. Para salir del intérprete pulsamos `CTRL+D`.  
 
 
 ### Script ejecutable
@@ -194,7 +199,7 @@ php -a
 echo "Hola mundo php\n";
 ```
 
-3. Para salir del intérprete pulsamos CTRL+D.   
+3. Para salir del intérprete pulsamos `CTRL+D`.   
 
 
 ### Script ejecutable
@@ -239,7 +244,7 @@ node
 console.log('Hola mundo js');
 ```
 
-3. Para salir del intérprete pulsamos CTRL+D.  
+3. Para salir del intérprete pulsamos `CTRL+D`.  
 
 
 
@@ -279,7 +284,7 @@ gcc  -o  hola4  hola4.c      # Compilamos y enlazamos
 
 ### Pasos
 
-1. Editamos archivo __hola5.asm__ con nano 
+1 Editamos archivo __hola5.asm__ con nano 
 
 ```nasm
  section .data
@@ -302,14 +307,14 @@ gcc  -o  hola4  hola4.c      # Compilamos y enlazamos
         int     80h
 ```
 
-2. Ensamblamos y enlazamos
+2 Ensamblamos y enlazamos
 
 ```bash
 nasm  -f  elf64  hola5.asm        # Ensamblado para ELF64
 ld  hola5.o  -o  holaen             # Enlazado y generación de ejecutable
 ```
 
-3. Ejecutamos
+3 Ejecutamos
 
 ```bash
 ./holaen                          # Ejecución
@@ -321,7 +326,7 @@ ld  hola5.o  -o  holaen             # Enlazado y generación de ejecutable
 
 ### Pasos
 
-1. Editamos archivo __hola6.go__ con nano 
+1 Editamos archivo __hola6.go__ con nano 
 
 ```go
 package main
@@ -333,13 +338,13 @@ func main() {
 }
 ```
 
-2. Compilamos y enlazamos
+2 Compilamos y enlazamos
 
 ```bash
 go  build  hola6.go   # Compilamos y enlazamos
 ```
 
-3. Ejecutamos
+3 Ejecutamos
 
 ```bash
 ./hola6              # Ejecutamos
@@ -358,24 +363,24 @@ go  run  hola6.go     # Interpretamos y ejecutamos
 
 ### Pasos
 
-1. Ejecutamos el intérprete.  
+1 Ejecutamos el intérprete.  
 
 ```bash
 clisp
 ```
 
-2. Escribimos las sentencias y luego pulsamos INTRO.
+2 Escribimos las sentencias y luego pulsamos INTRO.
 
 ```lisp
 (format t "¡Hola, mundo!")
 ```
 
-3. Para salir del intérprete pulsamos CTRL+D.  
+3 Para salir del intérprete pulsamos CTRL+D.  
 
 
 ### Script ejecutable
 
-1. Editamos archivo __hola7.lisp__ con nano
+1 Editamos archivo __hola7.lisp__ con nano
 
 ```lisp
 #!/usr/bin/env clisp
@@ -384,13 +389,13 @@ clisp
 ```
 
 
-2. Damos permisos de ejecución
+2 Damos permisos de ejecución
 
 ```bash
 chmod  +x  hola7.lisp
 ```
 
-3. Ejecutamos
+3 Ejecutamos
 
 ```bash
 ./hola7.lisp
