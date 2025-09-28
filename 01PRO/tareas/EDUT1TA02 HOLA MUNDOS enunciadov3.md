@@ -91,9 +91,9 @@ sudo  apt  install  python3  php  nodejs  gcc  g++  nasm  golang  clisp
 
 ### Pasos
 
-1. Estos comandos son propios de linux y se pueden ejecutra directamente en la terminal.
+1 Estos comandos son propios de linux y se pueden ejecutra directamente en la terminal.
 
-2. Escribimos las sentencias y luego pulsamos INTRO.
+2 Escribimos las sentencias y luego pulsamos INTRO.
 
 ```bash
 echo "Hola Mundo"
@@ -102,7 +102,7 @@ echo "Hola Mundo"
 
 ### Script ejecutable
 
-1. Editamos archivo __hola.sh__ con nano 
+1 Editamos archivo __hola.sh__ con nano 
 
 ```bash
 nano hola.sh
@@ -125,16 +125,16 @@ echo "hola mundo desde BASH"
 * Pulsa `Enter` para mantener el nombre del archivo
 
 
-1. Damos permisos de ejecución
+2 Damos permisos de ejecución
 
 ```bash
-chmod  +x  hola1.sh
+chmod  +x  hola1sh
 ```
 
-3. Ejecutamos
+3 Ejecutamos
 
 ```bash
-./hola1.sh
+./hola1sh
 ```
 
 --- 
@@ -143,24 +143,24 @@ chmod  +x  hola1.sh
 
 ### Pasos
 
-1. Ejecutamos el intérprete.  
+1 Ejecutamos el intérprete.  
 
 ```bash
 python3
 ```
 
-2. Escribimos las sentencias y luego pulsamos INTRO.
+2 Escribimos las sentencias y luego pulsamos INTRO.
 
 ```python
 print ("Hola Mundo desde PYTHON")
 ```
 
-3. Para salir del intérprete pulsamos `CTRL+D`.  
+3 Para salir del intérprete pulsamos `CTRL+D`.  
 
 
 ### Script ejecutable
 
-1. Editamos archivo __hola2.py__ con nano con nano:
+1 Editamos archivo __hola2.py__ con nano con nano:
 
 ```python
 #!/usr/bin/env python3
@@ -169,13 +169,13 @@ print ("Hola mundo python")
 ```
 
 
-2. Damos permisos de ejecución
+2 Damos permisos de ejecución
 
 ```bash
 chmod  +x  hola2.py
 ```
 
-3. Ejecutamos
+3 Ejecutamos
 
 ```bash
 ./hola2.py
@@ -187,24 +187,24 @@ chmod  +x  hola2.py
 
 ### Pasos
 
-1. Ejecutamos el intérprete.  
+1 Ejecutamos el intérprete.  
 
 ```bash
 php -a
 ```
 
-2. Escribimos las sentencias.
+2 Escribimos las sentencias.
 
 ```php
 echo "Hola mundo php\n";
 ```
 
-3. Para salir del intérprete pulsamos `CTRL+D`.   
+3 Para salir del intérprete pulsamos `CTRL+D`.   
 
 
 ### Script ejecutable
 
-1. Editamos archivo __hola3.php__ con nano:
+1 Editamos archivo __hola3.php__ con nano:
 
 ```php
 #!/usr/bin/env php
@@ -214,13 +214,13 @@ echo "Hola mundo php\n";
 ?>
 ```
 
-2. Damos permisos de ejecución
+2 Damos permisos de ejecución
 
 ```bash
 chmod  +x  hola3.php
 ```
 
-3. Ejecutamos
+3 Ejecutamos
 
 ```bash
 ./hola3.php
@@ -232,19 +232,19 @@ chmod  +x  hola3.php
 
 ### Pasos
 
-1. Ejecutamos el intérprete.  
+1 Ejecutamos el intérprete.  
 
 ```bash
 node
 ```
 
-2. Escribimos las sentencias y luego pulsamos INTRO.
+2 Escribimos las sentencias y luego pulsamos INTRO.
 
 ```javascript
 console.log('Hola mundo js');
 ```
 
-3. Para salir del intérprete pulsamos `CTRL+D`.  
+3 Para salir del intérprete pulsamos `CTRL+D`.  
 
 
 
@@ -252,7 +252,7 @@ console.log('Hola mundo js');
 
 ### Pasos 
 
-1. Editamos archivo __hola4.c__ con nano:
+1 Editamos archivo __hola4.c__ con nano:
 
 ```c 
 #include <stdio.h>
@@ -264,13 +264,13 @@ int main()
 }
 ```
 
-2. Compilamos y enlazamos
+2 Compilamos y enlazamos
 
 ```bash
 gcc  -o  hola4  hola4.c      # Compilamos y enlazamos
 ```
 
-3. Ejecutamos
+3 Ejecutamos
 
 ```bash
 ./hola4                    # Ejecutamos
