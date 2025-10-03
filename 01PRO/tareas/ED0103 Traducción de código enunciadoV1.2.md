@@ -19,8 +19,8 @@ En esta tarea, aprenderás a analizar y documentar el proceso de compilación de
      ```
    - Dentro del editor de texto `nano`, escribe el siguiente código:
      ```c
-     #include <stdio.h>
-     #define MESSAGE "¡Hola estudiantes de DAM!\n"
+     #include <stdio.h> //incluye las cabeceras de stdio.h
+     #define MESSAGE "¡Hola estudiantes de DAM!\n" //declara una MACRO
 
      //los comentarios serán borrados en el preprocesado
      //Aquí comienza el programa en sí
@@ -32,14 +32,7 @@ En esta tarea, aprenderás a analizar y documentar el proceso de compilación de
      ```
    - Para guardar el archivo y salir de `nano`, presiona **Ctrl + O** (luego Enter para confirmar el nombre del archivo), y después **Ctrl + X** para cerrar el editor.
 
-2. **Cambiar los permisos del archivo para que sea ejecutable**  
-   En Linux, los archivos creados no son ejecutables de forma predeterminada. Antes de compilar y ejecutar el programa, deberás cambiar los permisos del archivo. En la terminal, escribe el siguiente comando para asegurarte de que tengas permisos de lectura y escritura:
-
-   ```bash
-   chmod u+rwx main.c
-   ```
-
-3. **Preprocesado**  
+2. **Preprocesado**  
    Ahora que tienes el archivo fuente, el primer paso del proceso de compilación es el **preprocesado**. El preprocesador en C maneja directivas como `#include` y `#define`. Para realizar este paso, utiliza el siguiente comando en la terminal:
 
    ```bash
@@ -52,7 +45,13 @@ En esta tarea, aprenderás a analizar y documentar el proceso de compilación de
    nano main.i
    ```
 
-4. **Compilación**  
+   * Capturas interesantes:
+      * ¿El archivo es más grande o más pequeño?
+      * ¿qué ha pasado con los comentarios?
+      * ¿Qué ha pasado con el MESSAGE?
+
+
+3. **Compilación**  
    El siguiente paso es compilar el código preprocesado para convertirlo en código ensamblador. Ejecuta el siguiente comando para generar un archivo llamado `main.s`:
 
    ```bash
@@ -67,7 +66,7 @@ En esta tarea, aprenderás a analizar y documentar el proceso de compilación de
 
    En este archivo podrás observar instrucciones en lenguaje ensamblador, que son más cercanas a las instrucciones que entiende el procesador.
 
-5. **Ensamblado**  
+4. **Ensamblado**  
    El código ensamblador ahora debe ser traducido a un archivo objeto (binario intermedio) que el sistema pueda manejar. Usa el siguiente comando para generar el archivo `main.o`:
 
    ```bash
@@ -82,20 +81,21 @@ En esta tarea, aprenderás a analizar y documentar el proceso de compilación de
 
    También  puedes investigar cómo mostrar el contenido en binario.
 
-6. **Enlazado**  
+5. **Enlazado**  
    El último paso es enlazar el archivo objeto con las bibliotecas necesarias para crear el ejecutable. Usa el siguiente comando:
 
    ```bash
    gcc main.o -o main
    ```
 
-   Esto generará el ejecutable `main`. Sin embargo, si no puedes ejecutarlo directamente, deberás asegurarte de que tiene los permisos correctos. Cambia los permisos del ejecutable utilizando:
+   Esto generará el ejecutable `main`.
 
-   ```bash
-   chmod u+x main
-   ```
+   Observa el contenido del archivo `main`:
+   - con `nano`
+   - con el comando `hexdump -C archivo`
+   
 
-7. **Ejecutar el programa**  
+6. **Ejecutar el programa**  
    Una vez generado el ejecutable, puedes correr el programa usando el siguiente comando:
 
    ```bash
@@ -103,6 +103,12 @@ En esta tarea, aprenderás a analizar y documentar el proceso de compilación de
    ```
 
    Si todo ha salido bien, verás que el programa imprime el mensaje **¡Hola, estudiantes de DAM!** en la terminal.
+
+   > Si no puedes ejecutarlo directamente, deberás asegurarte de que tiene los permisos correctos. Cambia los permisos del ejecutable utilizando:
+
+   ```bash
+   chmod u+x main
+   ```
 
 ### Objetivos:
 - Comprender las fases del proceso de compilación en C.
