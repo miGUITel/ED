@@ -33,7 +33,7 @@ public class Mayorv1 {
 
 ---
 
-### 🔍 Comprobaciones con el *debugger* de IntelliJ:
+### Comprobaciones con el *debugger* de IntelliJ:
 
 1. **Poner un *breakpoint*** en la línea `if (numeros[i] > mayor)`.
 2. Ejecutar el programa en modo *debug*. (icono del bicho verde)
@@ -45,7 +45,7 @@ public class Mayorv1 {
 
 ---
 
-### Preguntas para fomentar el razonamiento:
+### Preguntas:
 
 - ¿Qué valor tiene `mayor` en cada iteración?
 - ¿Por qué empezamos el bucle en `i = 1`?

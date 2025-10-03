@@ -10,9 +10,6 @@ Picos:             ↑           ↑     ↑
 
 En este caso, los picos están en las posiciones 1 (3), 5 (6) y 7 (5).
 
----
-
-### 📄 Código en Java:
 
 ```java
 public class PicoDetector {
@@ -39,7 +36,7 @@ public class PicoDetector {
 
 ---
 
-### 🔎 ¿Por qué este ejemplo es ideal para usar el debugger?
+### ¿Por qué este ejemplo es ideal para usar el debugger?
 
 - Es muy fácil cometer errores al intentar seguir mentalmente qué elementos cumplen la condición.
 - El uso del debugger permite:
@@ -49,7 +46,7 @@ public class PicoDetector {
 
 ---
 
-### 🧪 Actividad sugerida
+### Actividad sugerida
 
 1. Poner un *breakpoint* en la línea del `if`.
 2. Ejecutar en modo debug.
@@ -60,7 +57,7 @@ public class PicoDetector {
 
 ---
 
-### 💬 Preguntas para fomentar el razonamiento:
+### Preguntas:
 
 - ¿Qué habría pasado si el bucle empezara en 0 o terminara en `datos.length`?
 - ¿Qué pasaría si el array tiene elementos iguales consecutivos?
