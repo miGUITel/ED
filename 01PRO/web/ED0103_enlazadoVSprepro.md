@@ -21,7 +21,7 @@
   - [Conclusión:](#conclusión)
 
 
-## Preprocesado y enlazado: manejo de librerías
+## Preprocesado y enlazado: manejo de librerías  
 
 Tanto el preprocesado como el enlazado están involucrados con el manejo de las librerías, pero cumplen roles muy diferentes en el proceso de compilación. Vamos a desglosar cada uno de ellos:
 
