@@ -102,7 +102,7 @@ En esta tarea, aprenderás a analizar y documentar el proceso de compilación de
    ./main
    ```
 
-   Si todo ha salido bien, verás que el programa imprime el mensaje **Hello, World!** en la terminal.
+   Si todo ha salido bien, verás que el programa imprime el mensaje **¡Hola, estudiantes de DAM!** en la terminal.
 
 ### Objetivos:
 - Comprender las fases del proceso de compilación en C.
