@@ -11,7 +11,7 @@ El objetivo de esta actividad es aplicar tus conocimientos sobre el proceso de d
 ## ¿Qué tiene que hacer tu equipo de trabajo?
 
 Imagina que eres parte del equipo de desarrollo de software para una tienda especializada en vender productos de jardinería. Tu tarea será describir detalladamente las fases del ciclo de vida de desarrollo de una aplicación destinada a satisfacer las necesidades de esta tienda. A continuación, se presenta una escena ficticia en la que el cliente y el jefe de proyecto mantienen una reunión para discutir los requerimientos y características del sistema que desean implementar. 
-
+![alt text](image-1.png)
 ### Escena de la reunión:
 
 **Cliente**: “Nos gustaría desarrollar una aplicación para nuestra tienda de jardinería. Queremos algo sencillo, pero eficaz. Por supuesto, la aplicación debe ser de software libre, ya que preferimos no depender de licencias caras."
@@ -47,18 +47,16 @@ Imagina que eres parte del equipo de desarrollo de software para una tienda espe
 ### Desarrollo del proyecto
 
 A partir de esta conversación, deberás diseñar una planificación del proyecto, detallando **cada una de las fases**de desarrollo necesarias para la creación de esta aplicación. Debes seguir las premisas estudiadas en la presente unidad de trabajo.
-
+![alt text](image.png)
 ### Requisitos del trabajo:
 
-1. **Describe la fase inicial del proyecto.** Aquí se deben identificar las necesidades generales del cliente y planificar los primeros pasos del proceso. **Genera el documento** propio de esta fase.
-   
-2. **Análisis de requisitos**. Sintetiza los requisitos **funcionales y no funcionales** del sistema, distinguiendo claramente entre los dos tipos. Escribe al menos 15 requisitos. Cumple con las características que deben tener los requisitos. Usa el **formato** adecuado según lo estudiado en la unidad.
+1. **Análisis de requisitos**. Aquí se deben identificar las necesidades generales del cliente y planificar los primeros pasos del proceso. Sintetiza los requisitos **funcionales y no funcionales** del sistema, distinguiendo claramente entre los dos tipos. Escribe al menos 15 requisitos. Cumple con las características que deben tener los requisitos. Usa el **formato** adecuado según lo estudiado en la unidad. ***(DEBES CENTRARTE EN ESTA FASE)***
 
-3. **Diseño**. Proporciona una propuesta de diseño del sistema, mencionando los módulos que interactuarán entre sí y seleccionando el **ciclo de vida de desarrollo o la metodología** que consideres más adecuada para este tipo de aplicación. Incluye al menos dos documentos de los que se generan en esta fase según los apuntes.
+2. **Diseño**. Proporciona una propuesta de diseño del sistema, mencionando los módulos que interactuarán entre sí y seleccionando el **ciclo de vida de desarrollo o la metodología** que consideres más adecuada para este tipo de aplicación. Incluye al menos dos documentos de los que se generan en esta fase según los apuntes.
    
-4. **Codificación**. Planifica el proceso de codificación, eligiendo el **lenguaje** de programación y las **herramientas** que utilizarás para obtener el código fuente, el código objeto y el ejecutable. Justifica la elección de estas herramientas.
+3. **Codificación**. Planifica el proceso de codificación, eligiendo el **lenguaje** de programación y las **herramientas** que utilizarás para obtener el código fuente, el código objeto y el ejecutable. Justifica la elección de estas herramientas.
 
-5. **Desarrollo de las fases restantes del ciclo de vida del software**. Describe el objetivo de cada fase (pruebas, mantenimiento, ...) y explica cómo abordarías tú cada una de ellas en este proyecto.
+4. **Desarrollo de las fases restantes del ciclo de vida del software**. Describe el objetivo de cada fase (pruebas, mantenimiento, ...) y explica cómo abordarías tú cada una de ellas en este proyecto.
 
 ### Instrucciones de entrega:
 
