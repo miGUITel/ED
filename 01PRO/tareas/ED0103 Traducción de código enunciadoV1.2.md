@@ -14,10 +14,13 @@ En esta tarea, aprenderás a analizar y documentar el proceso de compilación de
 
    - Abre la terminal de Linux.
    - Para crear un archivo llamado `main.c`, escribe el siguiente comando y presiona **Enter**:
+
      ```bash
      nano main.c
      ```
+
    - Dentro del editor de texto `nano`, escribe el siguiente código:
+
      ```c
      #include <stdio.h> //incluye las cabeceras de stdio.h
      #define MESSAGE "¡Hola estudiantes de DAM!\n" //declara una MACRO
@@ -30,7 +33,8 @@ En esta tarea, aprenderás a analizar y documentar el proceso de compilación de
      }
      //Aquí finaliza el programa
      ```
-   - Para guardar el archivo y salir de `nano`, presiona **Ctrl + O** (luego Enter para confirmar el nombre del archivo), y después **Ctrl + X** para cerrar el editor.
+
+   > Para guardar el archivo y salir de `nano`, presiona **Ctrl + O** (luego Enter para confirmar el nombre del archivo), y después **Ctrl + X** para cerrar el editor.
 
 2. **Preprocesado**  
    Ahora que tienes el archivo fuente, el primer paso del proceso de compilación es el **preprocesado**. El preprocesador en C maneja directivas como `#include` y `#define`. Para realizar este paso, utiliza el siguiente comando en la terminal:
