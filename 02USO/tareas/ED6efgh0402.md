@@ -1,6 +1,6 @@
-**Entornos de Desarrollo (ED)**
-**Unidad de Trabajo 2 (UT4)**
-**Tarea 04** (2)
+### **Entornos de Desarrollo (ED)**
+### **Unidad de Trabajo 2 (UT4)**
+### **Tarea 04** (2)
 
 ## OBJETIVOS DIDÁCTICOS
 
@@ -16,6 +16,14 @@
 * Escribe con tus palabras la situación que se debe representar
 * Genera los diagramas correspondientes
 * Entrega en pdf
+
+### Recomendaciones:
+
+En el diagrama de estados, se deben indicar los distintos estados de un mismo objeto.
+(También podría ser los distintos estados de un sistema, pero es más difícil acertar con los estados)
+En el diagrama de estados, en los rectángulos van estados.
+En el diagrama de actividades, en los rectángulos van actividades.
+La manera en la que lo indicamos, es utilizando sustantivos y ADJETIVOS para los estados y VERBOS para las actividades.
 
 ## Rúbrica
 
