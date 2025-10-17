@@ -4,6 +4,8 @@
 **Unidad de Trabajo: UT1**  
 **Tarea 0103: Análisis de la traducción de un programa en C**
 
+**NO DEBES ENTREGAR UNA MEMORIA DE LO QUE HAS HECHO PASO A PASO, MIRA AL [FINAL](#instrucciones-de-entrega): 
+
 ### Descripción de la tarea:
 En esta tarea, aprenderás a analizar y documentar el proceso de compilación de un programa escrito en C, desde la creación del archivo hasta la ejecución del programa final. Este proceso incluye varias fases: **preprocesado**, **compilación**, **ensamblado** y **enlazado**. A lo largo de la tarea, te guiaremos paso a paso en la creación y ejecución de un programa C en un entorno Linux, usando la terminal. 
 
@@ -121,7 +123,7 @@ En esta tarea, aprenderás a analizar y documentar el proceso de compilación de
 - Ejecutar correctamente un programa C desde el código fuente hasta la creación del ejecutable.
 
 ### Instrucciones de entrega:
-La entrega debe consistir en un documento en formato PDF con el análisis de cada una de las fases mencionadas. Incrusta capturas de pantalla del contenido de cada archivo y compara y comenta su contenido.
+La entrega debe consistir en un documento en formato PDF con el análisis de cada una de las fases mencionadas. Incrusta capturas de pantalla del contenido de cada archivo y **compara** y **comenta** su contenido.
 
 Además, debes incluir los archivos generados en cada paso del proceso:
 - Código fuente (`main.c`)
