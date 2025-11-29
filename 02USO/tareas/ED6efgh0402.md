@@ -12,18 +12,20 @@
 
 ## Realiza tus propios diagramas de estado y actividades
 
-* Inventa un diagrama de estado y un diagrama de actividades
-* Escribe con tus palabras la situación que se debe representar
-* Genera los diagramas correspondientes
+* Inventa un diagrama de estado
+  * Escribe con tus palabras la situación que se debe representar
+  * Genera el diagrama de estado correpondiente
+* Inventa un diagrama de de actividades
+  * Escribe con tus palabras una secuencia de actividades no relacionada con el diagrama anterior
+  * Genera el diagrama de actividades correpondiente
 * Entrega en pdf
 
 ### Recomendaciones:
 
 En el diagrama de estados, se deben indicar los distintos estados de un mismo objeto.
-(También podría ser los distintos estados de un sistema, pero es más difícil acertar con los estados)
-En el diagrama de estados, en los rectángulos van estados.
-En el diagrama de actividades, en los rectángulos van actividades.
-La manera en la que lo indicamos, es utilizando sustantivos y ADJETIVOS para los estados y VERBOS para las actividades.
+En el diagrama de estados, en los rectángulos se ponen estados.
+En el diagrama de actividades, en los rectángulos se ecriben actividades.
+Por ello, utilizando sustantivos y **ADJETIVOS** para los estados y **VERBOS** para las actividades.
 
 ## Rúbrica
 
