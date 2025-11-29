@@ -36,9 +36,9 @@ Para hacer esto, el sistema mantendrá activos los lectores de proximidad durant
 
 Otra funcionalidad que el sistema debe ofrecer es la de **registrar las entradas y salidas** de los residentes a la residencia (ver Figura 2). Esto se realizará mediante los **Terminales de Control de Entrada y Salida (TCES)**.  
 
-El TCES y la información que proporciona permitirán que el **personal directivo** pueda tomar decisiones posteriormente, por ejemplo, sobre evacuaciones en caso de incendio o para determinar el grado de permanencia de los residentes.  
+El TCES y la información que proporciona permitirán que el **director** pueda tomar decisiones posteriormente, por ejemplo, sobre evacuaciones en caso de incendio o para determinar el grado de permanencia de los residentes.  
 
-Para ello, el sistema permitirá al personal directivo:
+Para ello, el sistema permitirá al director:
 - Ver el **estado de ocupación** de la residencia en tiempo real.  
 - Generar **informes de permanencia** por meses, con datos que identifiquen a los residentes presentes en la residencia.
 
