@@ -1,6 +1,9 @@
-# ED – Refactorización y publicación en repositorio privado
+- [1. RA4 Refactorización de código y publicación en repositorio privado con memoria en Markdown](#1-ra4-refactorización-de-código-y-publicación-en-repositorio-privado-con-memoria-en-markdown)
+- [2. Objetivos](#2-objetivos)
+- [3. Descripción general de la tarea](#3-descripción-general-de-la-tarea)
+- [4. Entrega en Aula Virtual](#4-entrega-en-aula-virtual)
 
-## 1. Refactorización de código y publicación en repositorio privado con memoria en Markdown
+## 1. RA4 Refactorización de código y publicación en repositorio privado con memoria en Markdown
 
 ## 2. Objetivos
 
@@ -21,7 +24,7 @@ Partiendo de un **proyecto sencillo en Java** que tú mismo vas a crear, deberá
 5. Publicar el proyecto en un **repositorio privado de GitHub**, invitando al profesor como colaborador. 2p
 6. Comprimir la carpeta completa del proyecto (incluyendo el directorio `.git`) en un archivo **ZIP** y subirla al Aula Virtual. 2p
 
-## 6. Entrega en Aula Virtual
+## 4. Entrega en Aula Virtual
 
 La entrega en Aula Virtual constará de:
 
