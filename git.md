@@ -11,3 +11,5 @@
 [Fork](./08Git/web/LM08fork.md)
 
 [Copia a partir de plantilla](./08Git/web/LM08plantilla.md)
+
+[publicar git web pages](./08Git/web/pages.md)
