@@ -37,17 +37,18 @@ En resumen, al modelar clases en UML, es crucial tener en cuenta la visibilidad,
 En la programación orientada a objetos (POO) y en la notación UML (Unified Modeling Language), hay varias relaciones posibles entre clases para modelar la estructura y el comportamiento de un sistema. Aquí te presento algunas de las relaciones más comunes:
 
 1. **Asociación:**
-   - Representa una relación entre dos clases donde un objeto de una clase está relacionado con un objeto de otra clase. Puede ser unidireccional o bidireccional.
-     - **Unidireccional:** Una clase está asociada con otra, pero la asociación es unidireccional. Se representa con una línea sólida que va desde la clase de origen a la clase de destino.
+   - Representa una relación entre dos clases donde un objeto de una clase **utiliza** un objeto de otra clase. Puede ser unidireccional o bidireccional.
+     - **Unidireccional:** Una clase utiliza otra. La otra clase no depende de la primera. Se representa con una línea sólida que va desde la clase de origen a la clase de destino.
      - **Bidireccional:** Ambas clases están asociadas entre sí. Se representan con una línea sólida que conecta ambas clases.
    -  **Ejemplo UML:**
         - Unidireccional: `A --> B`
         - Bidireccional: `A <--> B`
       - Un Coche utiliza la clase Calculadora para calcular la velocidad lineal.
-      - La clase Coche debe preocuparse de los cambios que se produzcan en la Calculadora.
+      - Se genera una dependencia:
+      - La clase Coche debe preocuparse de los cambios que se produzcan en la interfaz de la Calculadora.
   ![Ejemplo asociación](./imagenes/asociacion.png)
 
-2. **Agregación:**
+1. **Agregación:**
    - Representa una relación de "todo-parte", donde una clase (todo) contiene a otra clase (parte). La parte puede existir de forma **independiente** de la clase contenedora.
    - Se representa con un rombo hueco en la clase contenedora.
    - **Ejemplo UML:**
@@ -55,9 +56,11 @@ En la programación orientada a objetos (POO) y en la notación UML (Unified Mod
      - La clase Propietario contiene la clase Casa.
      - El propietario debe saber cuáles son sus casas.
      - Si una de las clases desaparece, la otra no deja de existir.
+     - La casa puede cambiar de propietario.
 ![imagen agregación](./imagenes/agregación.png)
-3. **Composición:**
-    - Similar a la agregación, pero en este caso la parte no puede existir de forma independiente de la clase contenedora. La existencia de la parte está fuertemente vinculada a la existencia de la clase contenedora.
+
+1. **Composición:**
+    - Similar a la agregación, pero en este caso la parte **no puede existir** de forma independiente de la clase contenedora. La existencia de la parte está fuertemente vinculada a la existencia de la clase contenedora.
    - **Ejemplo UML:**
      - Rombo lleno en la clase contenedora: `A <>--* B`
    - Se representa con un rombo lleno en la clase contenedora.
@@ -65,15 +68,16 @@ En la programación orientada a objetos (POO) y en la notación UML (Unified Mod
    - Si la Casa desaparece las Ventanas también desaparecen.
   ![imagen composición](./imagenes/composicion.png)
 
-4. **Herencia (Generalización):**
+1. **Herencia (Generalización):**
    - Representa una relación de "es-un". Una clase (subclase) hereda atributos y comportamientos de otra clase (superclase).
    - Se representa con una línea sólida **con una flecha cerrada y hueca** que va desde la subclase hacia la superclase.
    ![Alt text](./image-3copy.png)
 
-5. **Realización (Implementación):**
+2. **Realización (Implementación):**
    - Indica que una clase implementa una interfaz o cumple con un contrato definido por una interfaz.
    - Se representa con una línea punteada **con una flecha cerrada y hueca** que va desde la clase implementadora hacia la interfaz.
    - La clase EstudianteBachillerato implementa los métodos de la interfaz ***Estudiante***.
+   - Cualquier clase puede pedirle, a cualquier tipo de Estudiante que implemente la interfaz, que realice ciertas acciones de la misma manera. 
   ![imagen implementacion](./imagenes/interfaz.png)
 
 Estas son solo algunas de las relaciones que se pueden modelar en UML. La elección de la relación dependerá de la naturaleza de la interacción entre las clases en el sistema que estás modelando.
@@ -85,7 +89,7 @@ Estas son solo algunas de las relaciones que se pueden modelar en UML. La elecci
 Las relaciones en el modelo UML tienen impacto en la forma en que se estructura y organiza el código en Java. A continuación, describo las posibles consecuencias de cada una de las cinco relaciones (Asociación, Agregación, Composición, Herencia y Realización) sobre el código Java:
 
 1. **Asociación:**
-   - **Consecuencia en Java:** Se traduce en la creación de campos (variables de instancia) en las clases involucradas para representar la relación entre los objetos. Pueden ser referencias directas o colecciones, dependiendo de la multiplicidad de la asociación.
+   - **Consecuencia en Java:** Una Clase utiliza otra, por ejemplo, en la implementación del método acelerar() se utiliza el método multiplicar() de una calculadora.
 
 ```java
 // Ejemplo de asociación unidireccional
@@ -110,13 +114,13 @@ public class Main{
 ```
 
 2. **Agregación:**
-   - **Consecuencia en Java:** ***Similar a la asociación***, pero con la indicación explícita de que la parte (clase agregada) puede existir de forma independiente. Se utilizan referencias a la clase parte.
+   - **Consecuencia en Java: En la clase agregada (todo) existe un atributo del tipo de la Clase parte. Indicación explícita de que la parte (clase agregada) puede existir de forma independiente. Se utilizan referencias a la clase parte.
 
 ```java
 // Ejemplo de agregación
 public class A {
    //Atributos
-    private B bDeA = b;
+    private B bDeA = b; //El atributo de tipo B en la clase A apunta al objeto b creado en el Main.
     // ...
 }
 
@@ -126,8 +130,8 @@ public class B {
 }
 
 public class Main{
+   public B b = new B(); //El objeto de tipo B se ha creado en el main
    public A a = new A();
-   public B b = new B();
 }
 ```
 
