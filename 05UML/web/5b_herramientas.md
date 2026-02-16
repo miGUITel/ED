@@ -9,7 +9,8 @@ Los diagramas de clases son fundamentales en el desarrollo de software, ya que p
 1. **Herramientas de modelado gráfico**  
    - StarUML: Software especializado en UML con una interfaz gráfica intuitiva.  
    - Visual Paradigm: Herramienta profesional con soporte para múltiples diagramas UML.  
-   - **Draw.io**: Alternativa en línea gratuita con soporte para UML.  
+   - **Draw.io**: Alternativa en línea gratuita con soporte para UML.
+   - miro: https://miro.com/es/diagrama/diagrama-uml/ 
 
 2. **Herramientas basadas en texto (code-first)**  
    - **PlantUML**: Usa una sintaxis basada en texto para definir diagramas, lo que facilita su integración con código fuente.  
