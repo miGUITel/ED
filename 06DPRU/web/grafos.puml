@@ -27,20 +27,91 @@ stop
 @enduml
 
 @startuml
-:2;
-if (3) then (Sí)
-    if (4) then (Sí)
-        :5;
-else
-    if (3) then (Sí)
-        :6;
-    else
-        :8;
-    endif
-    endif
+title Grafo de flujo - verificarVelocidad
+
+start
+
+:2. Iniciando verificación...;
+
+if (3. velocidad > limite\n&& esZonaEscolar?) then (Sí)
+  :5. Multa grave;
+else (No)
+  if (6. velocidad > limite?) then (Sí)
+    :7. Multa leve;
+  else (No)
+    :8. Velocidad dentro del límite;
+  endif
 endif
-:10;
+
+:9. Verificación completada;
+
+stop
+
 @enduml
+
+@startuml
+title Grafo fiel - verificarVelocidad (condición doble descompuesta + else-if real)
+
+start
+:2. Iniciando verificación...;
+
+' Parte 1 del AND (3)
+if (3. velocidad > limite?) then (Sí)
+
+  ' Parte 2 del AND (4)
+  if (4. esZonaEscolar?) then (Sí)
+    :5. Multa grave: Exceso de velocidad\nen zona escolar.;
+  else (No)
+    ' entra al else-if y REEVALÚA velocidad > limite
+    if (6. velocidad > limite?\n(reevaluación else-if)) then (Sí)
+      :7. Multa leve: Exceso de velocidad.;
+    else (No)
+      :8. Velocidad dentro del límite.;
+    endif
+  endif
+
+else (No)
+  if (6. velocidad > limite?\n(reevaluación else-if)) then (Sí)
+    :7. Multa leve: Exceso de velocidad.;
+  else (No)
+    :8. Velocidad dentro del límite.;
+  endif
+endif
+
+:9. Verificación completada.;
+stop
+@enduml
+
+@startuml
+title Grafo fiel - verificarVelocidad
+
+start
+:2;
+
+if (3) then (T)
+
+  if (4) then (T)
+    :5;
+  else (F)
+    if (6) then (T)
+      :7;
+    else (F)
+      :8;
+    endif
+  endif
+
+else (F)
+  if (6) then (T)
+    :7;
+  else (F)
+    :8;
+  endif
+endif
+
+:9;
+stop
+@enduml
+
 4
 @startuml
 

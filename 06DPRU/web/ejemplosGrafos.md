@@ -43,22 +43,22 @@ public void verificarVelocidad(int velocidad, int limite) {  // 1
 ```java
 public void verificarVelocidad(int velocidad, int limite, boolean esZonaEscolar) { // 1
     System.out.println("Iniciando verificación...");                               // 2
-    if (velocidad > limite && esZonaEscolar) {                                     // 3 vel //4 esZona
+    if (velocidad > limite && esZonaEscolar) {                                     // (3 vel - 4 esZona)
         System.out.println("Multa grave: Exceso de velocidad en zona escolar.");   // 5
-    } else if (velocidad > limite) {                                              // 6
-        System.out.println("Multa leve: Exceso de velocidad.");                    // 6
-    } else {                                                                       // 7
+    } else if (velocidad > limite) {                                               // 6
+        System.out.println("Multa leve: Exceso de velocidad.");                    // 7
+    } else {                                                                       
         System.out.println("Velocidad dentro del límite.");                        // 8
-    }                                                                              // 9
-    System.out.println("Verificación completada.");                                // 10
-} // 11
+    }                                                                              
+    System.out.println("Verificación completada.");                                // 9
+}
 ```
 
 📌 **Grafo:**
-![img_4.png](img_4.png)
+![img_10.png](img_10.png)
 
 📝 **Complejidad ciclomática:**  
-(V(G) = 4) (cuatro caminos posibles)
+(V(G) = 5) (cinco caminos posibles)
 
 ---
 
