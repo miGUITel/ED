@@ -67,3 +67,10 @@
 [refactorización apuntes](./08Git/presentación/md_sobre_refactorización/250510_Refactor.md)
 
 [refactoraización: cinco patrones básicos](./08Git/web/patronesBasicos.md)
+
+[Gestión de los archivos del proyecto con MAVEN](./08Git/web/maven/mavenFacil.md)
+
+* [Gestión de archivos](./08Git/web/maven/1_maven_carpetas.md)
+* [Gestión de librerias](./08Git/web/maven/2_maven_librerías.md)
+* [Construcción y empaquetado](./08Git/web/maven/3_maven_build.md)
+
