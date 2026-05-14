@@ -43,16 +43,87 @@ Este sistema contiene condiciones **no evidentes** que requieren inspección con
 Contesta a estas preguntas **usando el depurador**:
 
 
-| Nº | Pregunta                                                                                             | Respuesta del alumno | Recorte del punto de ruptura, momento de ejecución y valor de la variable solicitada
-|----|--------------------------------------------------------|--------------------------------------------------------------------|
-| 1  | ¿Cuántas pociones válidas ha recogido el jugador en la primera acción?                               |                      |
-| 2  | ¿Cuántas pociones válidas ha recogido el jugador cuando solo ha cogido tres de las cuatro?           |                      |
-| 3  | ¿Se añadió un antídoto tras recoger las pociones? ¿Por qué?                                          |                      |
-| 4  | ¿Cuántas monedas gana el jugador? ¿Qué objeto se añade automáticamente tras ello?                    |                      |
-| 5  | ¿Cuántas flechas quedan tras usar tres flechas? ¿Por qué se pierde una flecha extra?                 |                      |
-| 6  | ¿Qué ocurre con el antídoto si el jugador se queda sin pociones?                                     |                      |
-| 7  | ¿Qué objetos aparecen finalmente en el inventario y con qué cantidades?                              |                      |
+### 1. ¿Cuántas pociones válidas ha recogido el jugador en la primera acción?
 
+**Respuesta del alumno:**
+
+...
+
+**Recorte del punto de ruptura, momento de ejecución y valor de la variable solicitada:**
+
+...
+
+---
+
+### 2. ¿Cuántas pociones válidas ha recogido el jugador cuando solo ha cogido tres de las cuatro?
+
+**Respuesta del alumno:**
+
+...
+
+**Recorte del punto de ruptura, momento de ejecución y valor de la variable solicitada:**
+
+...
+
+---
+
+### 3. ¿Se añadió un antídoto tras recoger las pociones? ¿Por qué?
+
+**Respuesta del alumno:**
+
+...
+
+**Recorte del punto de ruptura, momento de ejecución y valor de la variable solicitada:**
+
+...
+
+---
+
+### 4. ¿Cuántas monedas gana el jugador? ¿Qué objeto se añade automáticamente tras ello?
+
+**Respuesta del alumno:**
+
+...
+
+**Recorte del punto de ruptura, momento de ejecución y valor de la variable solicitada:**
+
+...
+
+---
+
+### 5. ¿Cuántas flechas quedan tras usar tres flechas? ¿Por qué se pierde una flecha extra?
+
+**Respuesta del alumno:**
+
+...
+
+**Recorte del punto de ruptura, momento de ejecución y valor de la variable solicitada:**
+
+...
+
+---
+
+### 6. ¿Qué ocurre con el antídoto si el jugador se queda sin pociones?
+
+**Respuesta del alumno:**
+
+...
+
+**Recorte del punto de ruptura, momento de ejecución y valor de la variable solicitada:**
+
+...
+
+---
+
+### 7. ¿Qué objetos aparecen finalmente en el inventario y con qué cantidades?
+
+**Respuesta del alumno:**
+
+...
+
+**Recorte del punto de ruptura, momento de ejecución y valor de la variable solicitada:**
+
+...
 ---
 
 ### 3. Reflexión
