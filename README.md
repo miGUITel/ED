@@ -64,6 +64,10 @@
 
 [git](./git.md)
 
+* [Ramas básico](./08Git/web/ramasGit/0_ramas10anyos.md)
+* [Trabajar con ramas](./08Git/web/ramasGit/1_ramas_trabajar.md)
+  
+
 [refactorización apuntes](./08Git/presentación/md_sobre_refactorización/250510_Refactor.md)
 
 [refactoraización: cinco patrones básicos](./08Git/web/patronesBasicos.md)
