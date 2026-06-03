@@ -29,8 +29,9 @@ getAverage()
 
 > Devolverá el promedio de ingresos.
 
-Diseña los posibles casos de prueba para el método ***addSale()***, (solo tienes que completar la tabla de casos de prueba).
+*260511* Diseña los posibles casos de prueba para el método ***addSale()***, (tienes que completar ***REPRESENTAR LAS CLASES DE EQUIVALENCIA*** y crear la tabla de casos de prueba).
 
+#### Inserta aquí las clases de equivalencia:
 
 ##### Inserta aquí la tabla:
 
@@ -45,6 +46,7 @@ Diseña los posibles casos de prueba para el método ***addSale()***, (solo tien
 - [x] Crea la tabla formalmente correcta con los datos correctos resultantes del análisis anterior. **total 9 puntos**
 
 Vamos a probar una función que tiene como entrada el día de un mes (entero entre 1 y 31) y un número de mes (entero entre 1 y 12) y devuelve cuántos días quedan en este mes (un entero entre 0 y 30, dependiendo del mes).
+> *260511* No vamos a tener en cuenta los límites combinados (por ejemplo febrero (mes 2 día 30) o abril (mes 4 día 31))
 
 ```java
 int getDaysLeft(int dayOfMonth, int monthNumber)
@@ -52,5 +54,6 @@ int getDaysLeft(int dayOfMonth, int monthNumber)
     ... 
 }
 ```
+#### Inserta aquí el análisis los valores límite
 
 ##### Escribe la tabla con los casos de prueba para cubrir todos los valores límite.
