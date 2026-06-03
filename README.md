@@ -11,15 +11,9 @@
 
 ### UTO1 Proceso de desarrollo de software
 
-[Preprocesado y enlazado: manejo de librerías](./01PRO/web/ED0103_enlazadoVSprepro.md)
+[COMPILACIÓN Aclaramos Preprocesado y Enlazado: manejo de librerías](./01PRO/web/ED0103_enlazadoVSprepro.md)
 
-[react](./01PRO/web/ED0103_react.md)
-
-[Django](./01PRO/web/ED0103_django.md)
-
-[flask](./01PRO/web/ED0103_flask.md)
-
-[lisp](./01PRO/web/ED01_lisp.md)
+[Lenguajes vs Framework](./01PRO/web/lenVSfwork.md)
 
 ### UT02 Análisis mediante diagramas
 

@@ -26,6 +26,9 @@ Dicho de forma sencilla:
 
 En Java, esas “piezas de código externas” suelen llamarse **librerías**, **dependencias** o **bibliotecas**.
 
+![Dependencias fatales](viñeta_dependencias.png)
+[fuente - ](https://xkcd.com/2347/) [desarrolla](https://www.microsiervos.com/archivo/ordenadores/cruce-cables-91-software-abandonado.html)
+
 # Descargar librerías
 
 Cuando programamos una aplicación, muchas veces no queremos hacerlo todo desde cero.
