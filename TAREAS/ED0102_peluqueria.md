@@ -33,6 +33,9 @@ Integra en la memoria **qué documentación producirías en cada fase, quién as
 
 ## Entrega
 
+RF 1 Responde a todas las fases del proceso
+ 
+
 Entrega un **PDF individual** en Aula Virtual. Distingue los datos del relato, tus deducciones, tus propuestas y las cuestiones que consultarías al cliente. Se admiten interpretaciones diferentes si son coherentes y están justificadas. Incluye las fuentes y declara el uso de IA, si lo hay; deberás poder explicar tus decisiones sin su ayuda.
 
 ## Rúbrica
