@@ -9,6 +9,8 @@
 
 ## Apuntes de Entornos de Desarrollo DAM
 
+[Configurar las herramientas: VSC, GIT, github, (página del repo de LM)](https://miguitel.github.io/LM/02/TAREAS/0200_arranque_guiado.html)
+
 ### UTO1 Proceso de desarrollo de software
 
 [COMPILACIÓN Aclaramos Preprocesado y Enlazado: manejo de librerías](./01PRO/web/ED0103_enlazadoVSprepro.md)
