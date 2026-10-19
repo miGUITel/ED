@@ -1,3 +1,4 @@
+README
 - [Apuntes de Entornos de Desarrollo DAM](#apuntes-de-entornos-de-desarrollo-dam)
   - [UTO1 Proceso de desarrollo de software](#uto1-proceso-de-desarrollo-de-software)
   - [UT02 Análisis mediante diagramas](#ut02-análisis-mediante-diagramas)
@@ -8,8 +9,6 @@
   - [UT08 Documentación, control de versiones](#ut08-documentación-control-de-versiones)
 
 ## Apuntes de Entornos de Desarrollo DAM
-
-[Configurar las herramientas: VSC, GIT, github, (página del repo de LM)](https://miguitel.github.io/LM/02/TAREAS/0200_arranque_guiado.html)
 
 ### UTO1 Proceso de desarrollo de software
 
@@ -77,4 +76,5 @@
 * [Gestión de archivos](./08Git/web/maven/1_maven_carpetas.md)
 * [Gestión de librerias](./08Git/web/maven/2_maven_librerías.md)
 * [Construcción y empaquetado](./08Git/web/maven/3_maven_build.md)
+
 

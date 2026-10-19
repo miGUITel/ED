@@ -1,0 +1,35 @@
+@startuml
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName Calibri
+skinparam defaultFontSize 18
+skinparam ArrowFontSize 16
+skinparam ArrowColor #25382D
+skinparam ArrowThickness 1.5
+skinparam titleFontSize 24
+skinparam titleFontColor #385623
+skinparam dpi 160
+skinparam padding 12
+skinparam ActivityBackgroundColor #F3F6EE
+skinparam ActivityBorderColor #385623
+skinparam ActivityDiamondBackgroundColor #FFFFFF
+skinparam ActivityDiamondBorderColor #385623
+skinparam ActivityStartColor #25382D
+skinparam ActivityEndColor #25382D
+skinparam ActivityBarColor #385623
+skinparam StateBackgroundColor #F3F6EE
+skinparam StateBorderColor #385623
+skinparam StateStartColor #25382D
+skinparam StateEndColor #25382D
+skinparam ObjectBackgroundColor #F3F6EE
+skinparam ObjectBorderColor #385623
+skinparam conditionStyle InsideDiamond
+skinparam ConditionEndStyle diamond
+skinparam usecaseBackgroundColor #F3F6EE
+skinparam usecaseBorderColor #385623
+left to right direction
+title Inclusión de un caso de uso
+usecase "Confirmar compra" as Base
+usecase "Calcular total" as Incluido
+Base ..> Incluido : <U+00AB>include<U+00BB>
+@enduml

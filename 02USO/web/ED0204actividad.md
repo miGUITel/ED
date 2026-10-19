@@ -24,13 +24,15 @@ Para crear un diagrama de actividades en UML, se usan los siguientes elementos p
 
 3. **Nodos de Decisión**: Estos nodos se representan con rombos y muestran los puntos donde el flujo toma un camino dependiendo de una condición. Por ejemplo, una decisión puede dividir el flujo en "Aprobado" o "Rechazado".
 
-4. **Nodo de Inicio**: Representado por un círculo negro, marca el inicio del proceso. Es único y muestra el punto de partida del flujo de actividades.
+4. **Nodo de Inicio**: Representado por un círculo negro, marca el inicio del proceso. Puede haber varios nodos iniciales; en los ejemplos sencillos utilizaremos uno. Si hay varios, al iniciar la actividad comienza un flujo de control en cada uno.
 
-5. **Nodo de Fin**: Representado por un círculo negro con un borde, señala el final del proceso. Puede haber varios nodos de fin si hay diferentes resultados posibles.
+5. **Final de actividad**: Un círculo negro rodeado por otro círculo indica que termina toda la actividad, incluidas las demás ramas que sigan ejecutándose. Puede haber varios puntos de finalización.
 
-6. **Bifurcación y Unión (Fork/Join)**: La bifurcación se muestra con líneas horizontales o verticales que dividen el flujo en varios caminos, permitiendo la ejecución de actividades en paralelo. La unión sincroniza estos caminos en un solo flujo.
+6. **Final de flujo**: Un círculo con una cruz termina únicamente el flujo que lo alcanza; las otras ramas pueden continuar.
 
-![alt text](image-16.png)
+7. **Bifurcación y Unión (Fork/Join)**: La bifurcación se muestra con líneas horizontales o verticales que dividen el flujo en varios caminos, permitiendo la ejecución de actividades en paralelo. La unión sincroniza estos caminos en un solo flujo.
+
+![Diagrama de actividades con una decisión en rombo, unión de alternativas y dos ramas paralelas sincronizadas](diagramas/elementos_actividades_rev02.png)
 
 
 ## Ejemplos de Diagramas de Actividades
@@ -46,13 +48,13 @@ Después, se llega a la actividad **"Realizar pago"**, donde el cliente hace el 
 - Si el pago es aprobado, el flujo continúa hacia la actividad **"Verificar inventario"** (rectángulo redondeado), donde se verifica si los productos están disponibles.
 - Si el pago es rechazado, el flujo va hacia la actividad **"Notificar al cliente"**, informándole sobre el rechazo del pago.
 
-En paralelo, se puede ejecutar la actividad **"Actualizar pedido"** para asegurarse de que el inventario se ajuste a la compra. Esta acción paralela se representa con una **Bifurcación (Fork)**, que se muestra con una línea horizontal o vertical que divide el flujo en dos caminos que se ejecutan al mismo tiempo.
+Una vez verificado el inventario, una **Bifurcación (Fork)** abre dos ramas: **"Actualizar pedido"** y **"Confirmación de compra"**. Estas actividades se ejecutan en paralelo.
 
-Una vez que se completan las actividades paralelas, se sincronizan en una **Unión (Join)**, donde ambos flujos se juntan antes de continuar hacia la **"Confirmación de compra"**. Esta actividad confirma al cliente que la compra se completó exitosamente.
+La **Unión (Join)** espera a que terminen ambas ramas antes de continuar hacia **"Envío de recibo"**. La confirmación está dentro de una de las ramas paralelas, no después de la unión.
 
 Finalmente, el flujo llega a la actividad **"Envío de recibo"**, donde se envía un recibo al cliente para documentar la transacción. El proceso termina con el **Nodo de Fin** (círculo negro con borde), que indica que el proceso ha terminado.
 
-![alt text](image-17.png)
+![Compra en línea: decisión de pago, verificación del inventario, actualización del pedido y confirmación en paralelo, sincronización y envío del recibo](diagramas/actividades_compra_rev01.png)
 
 ### Ejemplo 2: Solicitud de Vacaciones
 
@@ -60,7 +62,13 @@ Un proceso de solicitud de vacaciones comienza con el **Nodo de Inicio**, que ll
 
 ### Ejemplo 3: Proceso de Registro de Usuarios
 
-Este proceso comienza con la actividad **"Recibir solicitud de registro"**, seguida por **"Verificación de datos"**. Si los datos son correctos, el flujo continúa hacia **"Crear cuenta"**, mientras que un flujo alternativo para datos incorrectos lleva a **"Solicitar corrección"**. Una **Bifurcación** permite que **"Enviar confirmación"** y **"Actualizar base de datos"** se realicen al mismo tiempo, sincronizándose luego en la actividad **"Notificar al usuario"**.
+Este proceso comienza con la actividad **"Recibir solicitud de registro"**, seguida por **"Verificación de datos"**. Si los datos son correctos, el flujo continúa hacia **"Crear cuenta"**, mientras que un flujo alternativo para datos incorrectos lleva a **"Solicitar corrección"**. Una **Bifurcación (Fork)** abre dos ramas para **"Enviar confirmación"** y **"Actualizar base de datos"**. Una **Unión (Join)** espera a que terminen ambas antes de continuar con **"Notificar al usuario"**.
+
+El dibujo representa un intento de registro: si los datos son incorrectos, se solicita su corrección y termina ese intento. El rombo inferior reúne caminos alternativos; la barra del join sincroniza las ramas paralelas.
+
+![Registro de usuarios con decisión sobre los datos, creación de cuenta, confirmación y actualización en paralelo, join y notificación](diagramas/registro_usuarios_rev02.png)
+
+[Fuente editable del registro en PlantUML](diagramas/registro_usuarios_rev02.puml)
 
 ## Conclusión
 
