@@ -1,0 +1,16 @@
+@startuml
+title Solicitud de préstamo
+autonumber
+actor Lector
+participant "Aplicación" as App
+database "Catálogo" as Catalogo
+Lector -> App : solicitarPrestamo(codigo)
+App -> Catalogo : consultarDisponibilidad(codigo)
+Catalogo --> App : disponible
+alt Disponible
+  App -> App : registrarPrestamo()
+  App --> Lector : Préstamo registrado
+else No disponible
+  App --> Lector : Opción de reserva
+end
+@enduml

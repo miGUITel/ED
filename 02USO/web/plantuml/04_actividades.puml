@@ -1,0 +1,12 @@
+@startuml
+title Tramitar una petición
+start
+:Buscar un libro;
+if (¿Disponible?) then (sí)
+  :Registrar préstamo;
+  :Entregar libro;
+else (no)
+  :Ofrecer reserva;
+endif
+stop
+@enduml

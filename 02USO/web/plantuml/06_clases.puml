@@ -1,0 +1,16 @@
+@startuml
+title Modelo de clases simplificado
+abstract class Recurso {
+  -titulo : String
+  +estaDisponible() : boolean
+}
+class Libro {
+  -isbn : String
+}
+class Prestamo {
+  -fechaInicio : String
+  +cerrar() : void
+}
+Recurso <|-- Libro
+Libro "1" -- "0..*" Prestamo : historial
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+title Servicios de una biblioteca
+left to right direction
+actor Lector
+rectangle "Sistema de biblioteca" {
+  usecase "Consultar catálogo" as Consultar
+  usecase "Solicitar préstamo" as Solicitar
+}
+Lector -- Consultar
+Lector -- Solicitar
+@enduml

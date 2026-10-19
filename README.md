@@ -21,9 +21,13 @@
 
 [Apuntes](./02USO/web/ED0200.md)
 
+[PlantUML: sintaxis básica, ejemplos y visualización en VS Code](./02USO/web/PlantUML.md)
+
 ### UT04 POO
 
 [Apuntes](./04POO/web/README.md)
+
+[Diagramas de clases con PlantUML](./02USO/web/PlantUML.md#clases-estructura-y-relaciones)
 
 ### UT05 UML
 

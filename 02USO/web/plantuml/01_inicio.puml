@@ -1,0 +1,8 @@
+@startuml
+title Primera vista previa
+' Este texto es un comentario.
+actor Persona
+participant "Aplicación" as App
+Persona -> App : consultar()
+App --> Persona : resultado
+@enduml
