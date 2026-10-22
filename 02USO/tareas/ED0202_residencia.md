@@ -13,9 +13,9 @@ De esta información deberás **extraer los casos de uso** y los **actores que l
 3. **Realiza el diagrama de casos de uso** siguiendo los pasos que hemos visto en clase.  
 4. **Documenta uno de los casos de uso** que hayas extraído. Elige uno que tenga un curso normal y al menos una alternativa relevante.
 
-La ficha debe incluir: sistema, nombre e identificador del CU, descripción, actores, precondiciones, curso normal numerado, alternativas y postcondiciones. Añade el campo «RF relacionados»: utiliza identificadores del catálogo real si existe; en este enunciado no se proporciona un catálogo numerado, por lo que puedes indicar «No se proporciona catálogo de RF» sin inventar códigos.
+La ficha debe incluir: sistema, nombre e identificador del CU, descripción, actores, precondiciones, curso normal numerado, alternativas y postcondiciones. Añade el campo «RF relacionados»: utiliza identificadores del catálogo real si existe; si no puedes inventarlos.
 
-Representa los sistemas externos mediante un rectángulo pequeño con «actor» y su nombre, situado fuera del límite del sistema y conectado con los casos de uso en los que participan. Se aplica la misma idea de participación que con los actores humanos.
+Representa los sistemas externos mediante un rectángulo pequeño con su nombre, situado fuera del límite del sistema y conectado con los casos de uso en los que participan. Se aplica la misma idea de participación que con los actores humanos.
 
 ---
 
@@ -38,46 +38,32 @@ La aplicación gobierna los TCS y TCES, recibe las lecturas de sus lectores RFID
 > **Figura 1**. Acceso de residentes a diferentes servicios mediante TCS.
 ![Residentes que acceden mediante terminales TCS a gimnasio, comedor, cafetería y otros servicios ilustrativos](image.png)
 
-La figura ilustra posibles servicios. En esta tarea se exige modelar los servicios descritos en el texto; la lavandería que aparece en la imagen no añade un requisito.
+La figura ilustra posibles servicios. En esta tarea se exige modelar los servicios descritos en el texto.
 ---
 
 Otra funcionalidad que el sistema debe ofrecer es la de **registrar las entradas y salidas** de los residentes a la residencia (ver Figura 2). Esto se realizará mediante los **Terminales de Control de Entrada y Salida (TCES)**.  
 
 El TCES y la información que proporciona permitirán que el **director** pueda tomar decisiones posteriormente, por ejemplo, sobre evacuaciones en caso de incendio o para determinar el grado de permanencia de los residentes.  
 
-Para ello, el sistema permitirá al director:
-- Ver el **estado de ocupación** de la residencia en tiempo real.  
-- Generar **informes de permanencia** por meses, con datos que identifiquen a los residentes presentes en la residencia.
+Para ello, el sistema permitirá al director ver el **estado de ocupación** de la residencia en tiempo real y generar **informes de permanencia** por meses, con datos que identifiquen a los residentes presentes en la residencia.
 
 > **Figura 2**. Registro de entrada/salida al recinto de la residencia mediante TCES.
 ![Residente que registra su entrada o salida mediante un TCES y director que consulta la ocupación](image-1.png)
 ---
 
-La **administración y gestión de las tarjetas** se realizan en el **departamento económico**, que debe poder:
-- Asignar una tarjeta a un residente al contratar.  
-- Activar los permisos de los servicios seleccionados en la aplicación, asociados al residente y a su tarjeta.  
-- Desactivar una tarjeta si fuera necesario.  
-- Generar **informes sobre la contratación** de los distintos servicios.
-
----
+La **administración y gestión de las tarjetas** se realizan en el **departamento económico**, asignado una tarjeta a un residente al contratar, activando los permisos de los servicios seleccionados en la aplicación, asociados al residente y a su tarjeta o desactivando una tarjeta si fuera necesario. También debe generar **informes sobre la contratación** de los distintos servicios.
 
 El sistema, al manejar información contable sobre los servicios contratados, deberá **emitir mensualmente y de forma automática** (aunque se podrá cancelar esta emisión por el departamento económico) una **remesa de cobros** con cargo a la cuenta de cada residente.  
 
 Para esta emisión, el sistema se comunicará **vía protocolo HTTPS** con un **sistema de emisión de cobros de una entidad bancaria** mediante un **API REST**.  
 El banco gestiona un servicio independiente con el que la aplicación intercambia la remesa. La emisión comienza automáticamente según la periodicidad indicada; el departamento económico puede cancelarla, pero no tiene que iniciarla cada mes.
 
----
-
 En cuanto a la seguridad, el sistema deberá ofrecer garantías en el tratamiento de la información.  
 De forma **semanal**, y **sin intervención de ningún operador**, deberá **copiar la base de datos de producción** a otra máquina de respaldo denominada **base de datos SCR**.  
 Esta máquina ya existe y centraliza todas las copias de seguridad de la residencia.  
 El servicio de respaldo SCR recibe las copias y se administra de manera independiente. La copia se inicia automáticamente: no se presupone un operador que la ponga en marcha cada semana.
 
----
-
-Los **administrativos de secretaría** deberán poder:
-- Consultar los datos de cada residente.  
-- Generar **informes de ocupación** para gestionar plazas y futuras admisiones, sin acceder al seguimiento de presencia en tiempo real reservado al director.  
+Los **administrativos de secretaría** consultan los datos de cada residente y generan **informes de ocupación** para gestionar plazas y futuras admisiones, sin acceder al seguimiento de presencia en tiempo real reservado al director.  
 
 Esta información es fundamental para gestionar la ocupación y las futuras admisiones.
 
@@ -94,13 +80,13 @@ Los conserjes también podrán solicitar **informes de ocupación anónimos**, e
 
 ## Entrega
 
-Entrega en Aula Virtual **un único PDF de un máximo de 6 páginas en total**, incluidas portada si la hubiera, diagramas, fuentes y anexos. No es necesario añadir portada. Identifica tu trabajo al principio.
+Entrega en Aula Virtual **un único PDF de un máximo de 4 páginas en total**, incluidas portada si la hubiera, diagramas, fuentes y anexos. No es necesario añadir portada. Identifica tu trabajo al principio.
 
 El PDF debe contener:
 
 - Listado y codificación de actores.
 - Listado y codificación de casos de uso.
-- Diagrama de casos de uso legible; puedes distribuirlo entre páginas si lo necesitas.
+- Diagrama de casos de uso legible en una sola página.
 - Ficha completa de un caso de uso.
 - Fuentes y declaración de uso de IA.
 
